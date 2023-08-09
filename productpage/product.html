@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>productPage</title>
+    <link rel="stylesheet" href="product.css">
 </head>
 <body>
-    <h2>hi</h2>
+    <header></header>
+    <main>
+        <div class="head">
+            <img src="https://1000logos.net/wp-content/uploads/2017/08/Color-Bed-Bath-and-Beyond-Logo.jpg" alt="logoimg">
+
+            <img src="https://i.pcmag.com/imagery/articles/07MjT1LtMPktaph6pUyBRrf-1..v1569488382.jpg" alt="overstocklogo">
+            <h3>overstock.ca</h3>
+        </div>
+        <div class="firstcontainer">
+            <p>Furniture / Living Room / Sofas & Couches</p>
+            <h1>Sofas & Couches</h1>
+           <div>
+            <select id="sellingsort">
+                <option value="">Best Selling</option>
+                <option value="High to low">Price High - Low</option>
+                <option value="Low to high">Price High - Low</option>
+                
+            </select>
+           </div>
+        </div>
+        <div class="secondcontainer">
+
+            <div id="productsidebar">
+
+                <div id="filterBrand">
+                    <h5>BRAND</h5>
+                    <form action="">
+                      <input class="brands" type="checkbox" value="Roadster" />
+                      <label for=""> Roadster</label><br />
+          
+                      <input class="brands" type="checkbox" value="Friskers" />
+                      <label for=""> Friskers</label><br />
+          
+                      <input
+                        class="brands"
+                        type="checkbox"
+                        value="HRX by Hrithik Roshan"
+                        id="HRX-by-Hrithik-Roshan"
+                      />
+                      <label for="HRX-by-Hrithik-Roshan"> HRX by Hrithik Roshan</label><br />
+          
+                      
+          
+                      <input class="brands" type="checkbox" value="U.S. Polo Assn." />
+                      <label for=""> U.S. Polo Assn.</label><br />
+          
+                      <input class="brands" type="checkbox" value="Tommy Hilfiger" />
+                      <label for=""> Tommy Hilfiger</label><br />
+          
+                    
+                      <input class="brands" type="checkbox" value="HERE&NOW" />
+                      <label for=""> HERE&NOW</label>
+                    </form>
+                  </div>
+                  <hr>
+                <div id="filterColor">
+                    <h5>COLOR</h5>
+                    <form action="">
+                      <input class="color" type="checkbox" value="black" />
+                      <span><input value="black"   style="background-color:#36454f; border-radius: 1rem; scale: 0.8;padding: 0rem 0.1rem ;" type="radio"></span>
+                      <label for=""> Black</label><br />
+          
+                      <input class="color" type="checkbox" value="blue" />
+                      <input value="blue"   style="background-color:#0074d9; border-radius: 1rem; scale: 0.8;padding: 0rem 0.1rem ;" type="radio">
+                      <label for=""> Blue</label><br />
+          
+                      <input class="color" type="checkbox" value="white" />
+                      <span><input  value="white"   style="background-color:white; border-radius: 1rem; scale: 0.8;padding: 0rem 0.1rem ;" type="radio"></span>
+                      <label for=""> White</label><br />
+          
+                      <input class="color" type="checkbox" value="green" />
+                      <input value="green"  style="background-color:#5eb160; border-radius: 1rem; scale: 0.8;padding: 0rem 0.1rem ;" type="radio">
+                      <label for=""> Green</label><br />
+          
+                      <input class="color" type="checkbox" value="red" />
+                      <span><input value="red"   style="background-color:#d34b56; border-radius: 1rem; scale: 0.8;padding: 0rem 0.1rem ;" type="radio"></span>
+                      <label for=""> Red</label>
+                    </form>
+                  </div>
+            </div>
+        
+                <div id="product-page-item-div"> 
+        </div>
+       
+    </main>
+    <footer></footer>
 </body>
+ <script src="./product.js"></script>
 </html>
