@@ -1,16 +1,9 @@
-#midPart{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-   
-}
-#midPart1a{
-   width: 100%;
+
+#mid{
+    width: 90%;
+   align-items: center;
    margin: auto;
-  text-align: center;
-  padding: 1%;
-   background-color:rgb(0,64,118);
-   font-size: 20px;
-   color: white;
+   
 }
 #midPart1>h1{
     text-align: center;
@@ -26,7 +19,7 @@
     text-align: center;
     width: 100%;
     gap: 25px;
-    font-size: 30px;
+    font-size: 20px;
 }
 #card>div>img{
     width:100%;
