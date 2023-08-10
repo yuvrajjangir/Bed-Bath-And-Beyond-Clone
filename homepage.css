@@ -1,26 +1,43 @@
+#mid {
+  width: 95%;
+  margin: auto;
+  align-items: center;
+}
+#mid > img {
+  width: 100%;
+}
+#midPart1a {
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  margin-top: 80px;
+}
+#midPart1a > img {
+  width: 100%;
+}
+#midPart1 > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+#midPart1 > h1 + div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  gap: 25px;
+  font-size: 20px;
+}
+#card > div > img {
+  width: 100%;
+}
 
-#mid{
-    width: 90%;
-   align-items: center;
-   margin: auto;
-   
-}
-#midPart1>h1{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 45px;
-}
-#midPart1>h1+div{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
- grid-template-columns: repeat(6,1fr);
-    text-align: center;
-    width: 100%;
-    gap: 25px;
-    font-size: 20px;
-}
-#card>div>img{
-    width:100%;
+#midPart2 > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
 }
