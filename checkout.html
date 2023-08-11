@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout Page</title>
+    <style>
+        /* Basic CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        .navbar img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .secure-checkout {
+            text-align: right;
+        }
+
+        .shipping-details {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .payment-info {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* Adjust widths for responsiveness */
+        @media (max-width: 768px) {
+            .shipping-details, .payment-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="your_logo.png" alt="Logo">
+        <div class="secure-checkout">
+            <p>Secure Checkout</p>
+            <img src="secure_icon.png" alt="Secure Checkout Icon">
+        </div>
+        <button>Sign In</button>
+    </div>
+
+    <!-- Shipping Address Details -->
+    <div class="shipping-details">
+        <div class="shipping-form">
+            <h2>Shipping Address</h2>
+            <form>
+                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Address Line 1">
+                <input type="text" placeholder="Address Line 2">
+                <input type="text" placeholder="Country">
+                <input type="text" placeholder="ZIP Code">
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="State">
+                <input type="tel" placeholder="Phone">
+                <input type="tel" placeholder="Alternate Phone">
+            </form>
+        </div>
+        <div class="subtotal">
+            <h2>Subtotal</h2>
+            <p>Subtotal Amount: $100.00</p>
+            <button>Submit Order</button>
+        </div>
+    </div>
+
+    <!-- Payment Information -->
+    <div class="payment-info">
+        <h2>Payment Information</h2>
+        <select>
+            <option value="credit-debit">Credit/Debit Card</option>
+            <option value="netbanking">Net Banking</option>
+        </select>
+        <div id="credit-debit" class="payment-method">
+            <input type="text" placeholder="Card Number">
+            <input type="text" placeholder="Card Holder Name">
+            <input type="text" placeholder="Expiration Date">
+            <input type="text" placeholder="CVV">
+        </div>
+        <div id="netbanking" class="payment-method" style="display: none;">
+            <input type="text" placeholder="Bank Name">
+            <input type="text" placeholder="Bank Holder Name">
+            <input type="text" placeholder="Bank Account Number">
+        </div>
+    </div>
+
+    <script>
+        // Handle payment method selection
+        const paymentSelect = document.querySelector('select');
+        const paymentMethods = document.querySelectorAll('.payment-method');
+
+        paymentSelect.addEventListener('change', (event) => {
+            const selectedMethod = event.target.value;
+            paymentMethods.forEach((method) => {
+                method.style.display = 'none';
+            });
+            document.getElementById(selectedMethod).style.display = 'block';
+        });
+    </script>
+</body>
+</html>
