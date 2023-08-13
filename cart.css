@@ -125,6 +125,7 @@
     text-align: center;
     font-size: large;
     text-decoration: none;
+    cursor: pointer;
   }
   h2 {
     text-align: left;
