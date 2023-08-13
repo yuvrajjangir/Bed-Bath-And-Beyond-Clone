@@ -1,7 +1,7 @@
 var sofaData =[
     {
         image1:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/8b640e7082b9bb5cfd88637d81c118e240f727ff/K925-Power-Lift-Chair.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/e453e10ce286c151a407a51800de53f44c4cc9be/Atley-Square-Arm-Modern-Linen-Blend-Sofa-with-Matte-Black-Legs.jpg",
     image2:
       "https://ak1.ostkcdn.com/images/products/is/images/direct/02c7501419a410d853cca83fad2fb685456bf44f/K925-Power-Lift-Chair.jpg?imwidth=480&impolicy=medium",
     image3:
@@ -14,10 +14,10 @@ var sofaData =[
       sale: "Sale starts atCAD$560",
     name: "Futzca ​Sectional Sofa Couch, 3 Seat L Shaped Sofa with Removable Pillows",
 
-    price: "$ 560",
+    price: "$3560",
     shipping:"Free Shipping",
     color: "black",
-    brand: "US Pride Furniture"
+    brand: "modway"
     },
     {
         image1:
@@ -34,9 +34,9 @@ var sofaData =[
       sale: "Sale starts atCAD$565",
       name: "Futzca ​Sectional Sofa Couch, 3 Seat L Shaped Sofa with Removable Pillows",
   
-      price: "$ 565",
+      price: "$565",
       shipping:"Free Shipping",
-      color: "beige",
+      color: "black",
       brand: "Highland"
     },
     {
@@ -54,7 +54,7 @@ var sofaData =[
       sale: "Click Here to See price",
       name: "JASIWAY Modern Style Large Upholstered Sectional Sofa",
   
-      price: "$ 667",
+      price: "$4567",
       shipping:"Free Shipping",
       color: "black",
       brand: "Benzara"
@@ -74,7 +74,7 @@ var sofaData =[
     sale: "Click Here to See price",
     name: "Castalia Nailhead Trim Chesterfield Sofa by Christopher Knight Home",
 
-    price: "$ 667",
+    price: "$6667",
     shipping:"Free Shipping",
     color: "black",
     brand: "LivEditor"
@@ -95,7 +95,7 @@ image5:
   sale: "Click Here to See price",
   name: "Bowie Glam Velvet Sofa by Christopher Knight Home",
 
-  price: "$ 679",
+  price: "$6779",
   shipping:"Free Shipping",
   color: "black",
   brand: "Benzara"
@@ -115,10 +115,10 @@ image5:
   sale: "Click Here to See price",
   name: "Capri Faux Leather Chesterfield Rolled Arm Loveseat",
 
-  price: "$ 750",
+  price: "$1750",
   shipping:"Free Shipping",
   color: "black",
-  brand: "US Pride Furniture"
+  brand: "modway"
 },
 {
   image1:
@@ -135,14 +135,14 @@ image5:
 sale: "Click Here to See price",
 name: "Boton Chesterfield Sofa",
 
-price: "$ 780",
+price: "$780",
 shipping:"Free Shipping",
-color: "Green",
-brand: "US Pride Furniture"
+color: "green",
+brand: "modway"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/20834914/Signature-Design-by-Ashley-Darcy-Contemporary-Blue-Sofa-5af06418-b571-425b-a3c0-9ce9dcd6a204_1000.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/11285ab51ff81162f44b76bf211748ebfe99614d/Us-Pride-Mac-Velvet-Sofa.jpg",
 image2:
 "https://ak1.ostkcdn.com/images/products/15636654/U.S.-Pride-Furniture-Grace-Rainbeau-Linen-Upholstered-Tufted-Mid-century-Sofa-7a909d38-66f6-47f0-abdd-09eb46006171_80.jpg",
 image3:
@@ -155,10 +155,10 @@ image5:
 sale: "Click Here to See price",
 name: "U.S. Pride Furniture Grace Rainbeau Linen Upholstered Tufted Mid-century Sofa",
 
-price: "$ 790",
+price: "$790",
 shipping:"Free Shipping",
-color: "Blue",
-brand: "US Pride Furniture"
+color: "blue",
+brand: "modway"
 },
 {
   image1:
@@ -175,16 +175,16 @@ image5:
 sale: "Click Here to See price",
 name: "Linen Fabric Upholstery 3-Seat Storage Sofa with Nailheads",
 
-price: "$ 790",
+price: "$790",
 shipping:"Free Shipping",
-color: "Blue",
+color: "blue",
 brand: "Highland"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/087f8748415cba1c51b30574db5519df37ce729a/Signature-Design-by-Ashley%2C-Darcy-Contemporary-Blue-Sofa-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/087f8748415cba1c51b30574db5519df37ce729a/Signature-Design-by-Ashley%2C-Darcy-Contemporary-blue-Sofa-Chaise.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/251e559245b370faedc2827887be24148f838526/Signature-Design-by-Ashley%2C-Darcy-Contemporary-Blue-Sofa-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/251e559245b370faedc2827887be24148f838526/Signature-Design-by-Ashley%2C-Darcy-Contemporary-blue-Sofa-Chaise.jpg",
 image3:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/80ceae1b920d8277b0de96e302302a03124b756f/Accent-Velvet-Upholstered-Loveseat-Sofa-with-Nailhead-Curved-Backrest.jpg",
 image4:
@@ -195,9 +195,9 @@ image5:
 sale: "Click Here to See price",
 name: "Accent Velvet Upholstered Loveseat Sofa with Nailhead Curved Backrest",
 
-price: "$ 890",
+price: "$890",
 shipping:"Free Shipping",
-color: "Blue",
+color: "blue",
 brand: "Highland"
 },
 
@@ -215,9 +215,9 @@ image5:
 sale:"Click Here to See price",
 name: "Modern Upholstered L-Shape Sofa in Linen Fabric with Chaise 85",
 
-price: "$ 890",
+price: "$890",
 shipping:"Free Shipping",
-color: "Blue",
+color: "blue",
 brand: "Highland"
 },
 {
@@ -234,9 +234,9 @@ image5:
 sale:"Click Here to See price",
 name: "Modern Elegant Velvet Sofa With Buttons Upholstery And Metal Legs",
 
-price: "$ 690",
+price: "$690",
 shipping:"Free Shipping",
-color: "Green",
+color: "green",
 brand: "LivEditor"
 },
 
@@ -254,9 +254,9 @@ image5:
 sale:"Click Here to See price",
 name: "Modern Accent Sofa, Sectional Sofa with Metal Legs",
 
-price: "$ 697",
+price: "$697",
 shipping:"Free Shipping",
-color: "Green",
+color: "green",
 brand: "LivEditor"
 },
 
@@ -274,15 +274,15 @@ image5:
 sale:"Click Here to See price",
 name: "Modern Velvet Sofa with Metal Legs,Loveseat Sofa Couch with 2 Pillows",
 
-price: "$ 897",
+price: "$897",
 shipping:"Free Shipping",
-color: "Green",
+color: "green",
 brand: "LivEditor"
 },
 
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/14229039/Katrina-Contemporary-Emerald-Green-Nailhead-Sofa-by-FOA-d922daed-cdec-4172-ba9e-c6bf51c46780_1000.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/981610c7f63022c18d40c8777f1c45f930647fe4/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
 image2:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/f9e47b5c189110cbba7bd768fa3327b1691c7883/Folding-Futon-Sofa-Bed%2C-Velvet-Sleeper-Sofa-for-Compact-Living-Space.jpg",
 image3:
@@ -294,14 +294,14 @@ image5:
 sale:"Click Here to See price",
 name: "Folding Futon Sofa Bed, Velvet Sleeper Sofa for Compact Living Space",
 
-price: "$ 757",
+price: "$3757",
 shipping:"Free Shipping",
-color: "Green",
+color: "green",
 brand: "LivEditor"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8b37ec00632157f2cbf94aac2a639c23c960a130/Emmet-Forest-Green-Velvet-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/8b37ec00632157f2cbf94aac2a639c23c960a130/Emmet-Forest-green-Velvet-Sofa.jpg",
 image2:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/2ab797db6be467e7243fc8fbb7e110e7a71189e4/65-inch-Mid-Century-Modern-Loveseat%2CSofa-with-2-Bolster-Pillows.jpg",
 image3:
@@ -313,9 +313,9 @@ image5:
 sale:"Click Here to See price",
 name: "65 inch Mid Century Modern Loveseat,Sofa with 2 Bolster Pillows",
 
-price: "$ 557",
+price: "$557",
 shipping:"Free Shipping",
-color: "Green",
+color: "green",
 brand: "LivEditor"
 },
 
@@ -323,19 +323,19 @@ brand: "LivEditor"
   image1:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/5e9eac00d9c1b82088826390319d799909df0380/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/1c4e8e3d3411672990c894f92045ceef3c9b3494/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-Cushions-by-Christopher-Knight-Home.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/1c4e8e3d3411672990c894f92045ceef3c9b3494/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/c8e9e76c0020908080fc578b4d8f28a4b3db8fb4/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-Cushions-by-Christopher-Knight-Home.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/c8e9e76c0020908080fc578b4d8f28a4b3db8fb4/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/c34b9eeba4d14bd3fd39a0dfde73a9d2e6aabda1/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-Cushions-by-Christopher-Knight-Home.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/c34b9eeba4d14bd3fd39a0dfde73a9d2e6aabda1/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/112ce590f599c500c3b11e30d5f68d0cc42bec9c/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-Cushions-by-Christopher-Knight-Home.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/112ce590f599c500c3b11e30d5f68d0cc42bec9c/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
 sale:"Click Here to See price",
 name: "Barneyville Traditional Chesterfield Sofa by Christopher Knight Home",
 
-price: "$ 498",
+price: "$498",
 shipping:"Free Shipping",
-color: "Red",
+color: "red",
 brand: "Benzra"
 },
 
@@ -354,9 +354,9 @@ image5:
 sale:"Click Here to See price",
 name: "Soft Bean Bag Chair with Ottoman,Sponge Filling Lazy Sofa Floor Couch",
 
-price: "$ 643",
+price: "$643",
 shipping:"Free Shipping",
-color: "Red",
+color: "red",
 brand: "Benzara"
 },
 
@@ -374,7 +374,7 @@ image5:
 sale:"Click Here to See price",
 name: "Teddy Fabric 2-Seat Floor Sofa,Lazy Sofa for Bedroom Living Room",
 
-price: "$ 857",
+price: "$126",
 shipping:"Free Shipping",
 color: "White",
 brand: "Benzara"
@@ -394,7 +394,7 @@ image5:
 sale:"Click Here to See price",
 name: "Teddy Fabric Upholstery Lounge Floor Couch,Lazy Sofa for Living Room",
 
-price: "$ 557",
+price: "$147",
 shipping:"Free Shipping",
 color: "white",
 brand: "Benzara"
@@ -424,7 +424,7 @@ array.forEach(function(element,index){
     imgDiv.setAttribute("id", "imgDiv");
     imgDiv.append(img);
 
-    imgDiv.addEventListener("click", function () {
+    div.addEventListener("click", function () {
         var itemObj = {
           imageURL1: element.image1,
           imageURL2: element.image2,
@@ -434,12 +434,14 @@ array.forEach(function(element,index){
   
           name: element.name,
           sale: element.sale,
+          color: element.color,
           freeship : element.shipping,
-          price: parseInt(element.strikedoffprice.replace("Rs ", "")),
-
+          price: parseInt(element.price.replace("$", "")),
+brand:element.brand,
          
           
         };
+        window.location.href = "./itemdetails/item.html";
         localStorage.setItem("itemDetails", JSON.stringify(itemObj));
 })
 var h3 = document.createElement("h3");
@@ -497,22 +499,32 @@ function updateDisplay() {
   });
 
   // Get selected price range
-  var selectedPriceRange = priceCheckboxes.find(checkbox => checkbox.checked)?.value;
+  const selectedPriceRange = Array.from(document.querySelectorAll(".price:checked")).map(checkbox => checkbox.value);
+
+
+  function getPriceRangeValues(priceRange) {
+    const [min, max] = priceRange.split("-").map(value => parseInt(value));
+    return { min, max };
+  }
 
   // Filter products based on selected options
   var filteredProducts = sofaData.filter(product => {
     var brandMatch = selectedBrands.length === 0 || selectedBrands.includes(product.brand);
     var colorMatch = selectedColors.length === 0 || selectedColors.includes(product.color);
-    var productPrice = parseFloat(product.price.replace("$", "").trim());
+    // var productPrice = parseFloat(selectedPriceRange.price.replace("$", "").trim());
 
-    if (selectedPriceRange === "low") {
-      return brandMatch && colorMatch && product.price < 50;
-    } else if (selectedPriceRange === "medium") {
-      return brandMatch && colorMatch && product.price >= 50 && product.price < 100;
-    } else if (selectedPriceRange === "high") {
-      return brandMatch && colorMatch && product.price >= 100;
-    } else {
+    
+
+
+    if (selectedPriceRange.length === 0) {
       return brandMatch && colorMatch;
+    } else {
+      return brandMatch && colorMatch && selectedPriceRange.some(range => {
+        const priceRangeValues = getPriceRangeValues(range);
+        const productPrice = parseFloat(product.price.replace("$", "").replace(",", "").trim());
+        return productPrice >= priceRangeValues.min && productPrice <= priceRangeValues.max;
+      });
+     
     }
     
 
@@ -535,6 +547,64 @@ priceCheckboxes.forEach(function (checkbox) {
 });
 
 updateDisplay(); // Initialize the display
+
+//productsidebar dropdown 
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var filterHeaders = document.querySelectorAll(".filter h5");
+
+  filterHeaders.forEach(function (header) {
+    var dropdownToggle = header;
+    var dropdownContent = header.nextElementSibling;
+
+    dropdownToggle.addEventListener("click", function (event) {
+      // event.stopPropagation();
+      toggleDropdown(dropdownContent);
+    });
+
+    dropdownToggle.querySelector("img").addEventListener("click", function (event) {
+      event.stopPropagation();
+      toggleDropdown(dropdownContent);
+    });
+
+    // Prevent closing when interacting with checkboxes
+    var checkboxes = dropdownContent.querySelectorAll("input[type='checkbox']");
+    checkboxes.forEach(function (checkbox) {
+      checkbox.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+    });
+  });
+
+  // Close dropdowns when clicking outside
+  window.addEventListener("click", function (event) {
+    if (!event.target.matches(".filter h5, .filter h5 img")) {
+      closeAllDropdowns();
+    }
+  });
+
+  function toggleDropdown(content) {
+    content.classList.toggle("show");
+    // hideOtherDropdowns(content);
+  }
+
+  function closeAllDropdowns() {
+    filterHeaders.forEach(function (header) {
+      var dropdownContent = header.nextElementSibling;
+      dropdownContent.classList.remove("show");
+    });
+  }
+});
+
+
+
+
+
+
+
+
 
 
 
