@@ -1,0 +1,242 @@
+body{
+margin: 0;
+padding: 0;
+}
+.head{
+    display: flex;
+    background-color: rgb(42,73,160);
+    justify-content: center;
+    align-items: center;
+}
+.head img{
+    width: 4rem;
+    height: 2em;
+   
+}
+
+.firstcontainer{
+    display: flex;
+
+justify-content: space-between;
+padding: 0 5rem;
+align-items: center;
+} 
+.firstcontainer>div p{
+    font-size: 20px;
+    
+} 
+
+.firstcontainer #salarysort{
+    
+    padding: 5px 8px;
+    border-radius: 2px;
+    } 
+.secondcontainer{
+    display: flex;
+  
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+
+
+#productsidebar {
+    margin-left: 1.4rem;
+    width: 17%;
+   
+   height: fit-content;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   position: sticky;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .dropdown-content {
+    display: none;
+}
+.show {
+  display: block;
+}
+hr{
+  color: gray;
+  margin: 0;
+  border: 1px solid gray;
+ 
+}
+
+  #productsidebar form label{
+    font-size: 16px;
+   color: #4b4b4f;
+  
+
+Font-weight: 400;
+Line-height: 21px;
+color: rgb(64, 117, 169);
+    
+  }
+  #productsidebar form input{
+    margin: 4px;
+    scale: 1;
+    width: 18px; height: 18px;
+   margin-left: 1.7rem;
+   margin-right: 1rem;
+}
+#productsidebar h5{
+    opacity: 0.7;
+    font-size: 15px;
+    }
+    hr{
+ 
+        opacity: 0.25;
+      }
+    
+
+    #filterColor form input[type="radio"]{
+        appearance: none;
+     
+      }
+      #filterColor form input[type="radio"]::before{
+        content: "✔";
+        padding: 0rem 0.1rem ;
+        /* color: rgb(112, 12, 12); */
+        color: transparent;
+        /* transform: scale(0); */
+      }
+      
+      #filterColor form input[type="radio"]::before{
+        /* background-color: rgb(205, 7, 7); */
+        transform: scale(1);
+        border-radius: 1rem;
+        border: 1px solid rgba(0,0,0,0.4);
+       
+
+      }
+
+.head >h3{
+    color: white;
+    font-size: 1.17em;
+    font-size: 30px;
+    margin: 5px 3px;
+}
+
+
+
+#product-page-item-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5em;
+width: 70%;
+   margin-right: 2rem;
+   overflow-y: auto;
+   height: fit-content;
+}
+
+@media screen {
+  
+}
+#product-page-item-div >div{
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+#product-page-item-div div >img{
+  width: 100%;
+}
+#product-page-item-div div >h3{
+    padding-left: 10px;
+      }
+
+#product-page-item-div div >p{
+padding-left: 10px;
+  }
+
+  #product-page-list {
+    /* width: 50%; */
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto 48px;
+    height: 7rem;
+  }
+ 
+  #product-page-list button{
+    font-size: 1.3rem;
+    border-radius: 2.3rem;
+    /* background-color: beige; */
+    border: hidden;
+    background-color: white;
+    margin: 0 0.4rem;
+    
+  }
+
+  #product-page-list button:hover {
+    background-color: rgb(47,51,55); 
+    font-size: 1.3rem;
+    border-radius: 4rem;
+    padding: 0.5rem;
+}
+  .arrow{
+  
+    padding: 0.3rem 0.6rem;
+    border: 1px solid gray;
+  }
+
+   .belowdrop{
+display: inline-block;
+border: hidden;
+background-color: white;
+  }
+  h5 >img{
+    width: 20px;
+
+  }
+  h5{
+    padding: 0px 1.5rem;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    height: 3rem;
+  }
+  .endproduct{
+    display: flex; flex-direction: row; justify-content: flex-end;
+    height: fit-content;
+  }
+
+  .dropdiv{
+    display: flex;flex-direction: row; border: 1px solid blue; width: 30%; 
+   margin-right: 5rem;
+  }
+  .dropdiv :nth-child() {
+    width: 70%;
+  height: 30%;
+  background-color: rebeccapurple;
+  }
+  .dropdiv>div img{
+    width: 100%;
+    height: 100%;
+  }
+  .dropdiv p{
+    font-size: 20px; 
+  }
+
+  .Reviews{
+    display: flex;justify-content: center;
+    margin-bottom: 4.5rem;
+
+  }
+  .Reviewbox{
+     width: 20%;display: flex; 
+  }
+  .Reviewbox >div{
+    margin-right: 1rem;
+  }
+  .Reviewbox >div>img{
+    border: 6px solid #dbdcdf; border-radius: 4.1rem 4rem;
+  }

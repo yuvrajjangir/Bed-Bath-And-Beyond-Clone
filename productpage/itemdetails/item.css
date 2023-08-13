@@ -1,0 +1,144 @@
+/* Style for the outer container */
+.detailsdiv>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+}
+
+/* Style for the image container */
+.img-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style for the primary image */
+.firstimg {
+   /* width: 100%; */
+    height: auto;
+    border: 1px solid #ccc;
+}
+.firstimg  img {
+    width: 45rem;
+    height: 40rem;
+   
+}
+.secimg {
+    display: flex;
+     width: 45rem;
+     /* height: fit-content; */
+     margin-bottom: 10px;
+     justify-content: space-between;
+ }
+
+/* Style for the small images */
+.secimg .imgDiv {
+    border: 1px solid #ccc;
+    margin: 5px 5px;
+    padding: 5px;
+    cursor: pointer;
+   background-color: #007bff;
+}
+
+.secimg .imgDiv img {
+    width: 100%;
+   height: 100%;
+}
+/* Style for the other data container */
+.otherdata {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px; /* Add margin to create space between image container and other data */
+}
+.otherdata >p{
+    font-size: 1.5rem;
+}
+
+/* Style for the button */
+
+.allsize{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+
+}
+.allsize >button{
+    height: fit-content;
+    font-size: 20px;
+    border: hidden;
+    
+}
+
+
+.shopping{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wishlist {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    }
+
+.wishlist >img{
+width: 20px;
+}
+ .addtocart {
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size: large;
+}
+
+/* Style for text elements */
+h3, p {
+    margin: 5px 0;
+}
+
+
+/* .size-buttons{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    padding: 0.3rem;
+} */
+.size-button{
+    margin: 4px;
+    padding: 0.3rem 0.7rem;
+    border-radius: 2rem;
+    border: hidden;
+    font-size: 1rem;
+    background-color:rgb(47,51,55);
+    color: white;
+}
+
+.quantity-div{
+    display: flex;
+  justify-content: first baseline;
+  align-items: center;
+    margin: 1.6rem 0px;
+}
+.quantity-select{
+    padding: 10px;
+    width: 90%;
+    margin-left:7px ;
+    
+}
