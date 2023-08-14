@@ -1,15 +1,15 @@
 var sofaData =[
     {
         image1:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/e453e10ce286c151a407a51800de53f44c4cc9be/Atley-Square-Arm-Modern-Linen-Blend-Sofa-with-Matte-Black-Legs.jpg",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/363aaff69b55b246fe885902f1f6407fa8b75de9/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image2:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/02c7501419a410d853cca83fad2fb685456bf44f/K925-Power-Lift-Chair.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/2cf9914f8f9372753eaf76674dc54747465c2f58/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image3:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/dcd39ddcfba9dd9628ec95fb364e616b271d0225/K925-Power-Lift-Chair.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/e824be930068a4f97664beb479f7ea9d7ff4e0ef/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image4:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/41250561a1527541e727879d9f84bac30c0adc31/K925-Power-Lift-Chair.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/5ae976b21612e730d87e3403c7e25d8e5275409f/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image5:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/b32bf50b85c4315797f5afa7a938ab5b649f5251/QOMOTOP-Oversize-Power-Lift-Recliner-Chair-for-Elderly%2C-Safe-Slow-Lift-Motor.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/cc8d114e7da9402a7659692890732bb60030ca48/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
 
       sale: "Sale starts atCAD$560",
     name: "Futzca ​Sectional Sofa Couch, 3 Seat L Shaped Sofa with Removable Pillows",
@@ -17,339 +17,339 @@ var sofaData =[
     price: "$3560",
     shipping:"Free Shipping",
     color: "black",
-    brand: "modway"
+    brand: "Modway"
     },
     {
         image1:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/e8358dc73a109ee8f71cfb12856bd81284f8d292/Futzca-%E2%80%8BSectional-Sofa-Couch%2C-3-Seat-L-Shaped-Sofa-with-Removable-Pillows.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/5abef53f281a668451abd2619b9ed2befbaad0e6/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image2:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/7bc1aa98734dd0cc8696084dcc4ed97c5034b8cc/Futzca-%E2%80%8BSectional-Sofa-Couch%2C-3-Seat-L-Shaped-Sofa-with-Removable-Pillows.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/5abef53f281a668451abd2619b9ed2befbaad0e6/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image3:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/a3a5a6cc4975501cecdafc022120e9283c0e57c3/Futzca-%E2%80%8BSectional-Sofa-Couch%2C-3-Seat-L-Shaped-Sofa-with-Removable-Pillows.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/d9bbcaf845b1a1ba5a7409b1d5de6920a0bc6df2/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image4:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/eb169f05a449bf37526cb959fd46c404e0d43032/Futzca-%E2%80%8BSectional-Sofa-Couch%2C-3-Seat-L-Shaped-Sofa-with-Removable-Pillows.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/8c996175f491ece9a86d3b00121ae628fb45be26/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
     image5:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/8ee3003107d3374fa9fe96892173c4f9b52f777e/Futzca-%E2%80%8BSectional-Sofa-Couch%2C-3-Seat-L-Shaped-Sofa-with-Removable-Pillows.jpg?imwidth=480&impolicy=medium",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/fffdf0432bc65091c4af4b62ba5bb9bd3474110d/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
 
       sale: "Sale starts atCAD$565",
       name: "Futzca ​Sectional Sofa Couch, 3 Seat L Shaped Sofa with Removable Pillows",
   
       price: "$565",
       shipping:"Free Shipping",
-      color: "black",
-      brand: "Highland"
+      color: "blue",
+      brand: "Modway"
     },
     {
         image1:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/363aaff69b55b246fe885902f1f6407fa8b75de9/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/981610c7f63022c18d40c8777f1c45f930647fe4/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
     image2:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/6e5e0aeddb70f4eaad68194470468f3a5b1d5ba6/JASIWAY-Modern-Style-Large-Upholstered-Sectional-Sofa.jpg",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/572f84377f39b2d4b0db172366806433a3f34b6e/Somerville-Chesterfield-Tufted-Velvet-Sofa-by-Christopher-Knight-Home.jpg",
     image3:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/46b8b2019ae58f78b7a9fb60903e5ec1641c35eb/JASIWAY-Modern-Style-Large-Upholstered-Sectional-Sofa.jpg",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/2895724c704d2af8fd6dc0319c3f2b14ad66a815/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
     image4:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/899a3a0112fe1aefdce82c35243da49cf9395a8a/JASIWAY-Modern-Style-Large-Upholstered-Sectional-Sofa.jpg",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/88f055a9533a09e18a5333a3c01b28a65d68a7f9/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
     image5:
-      "https://ak1.ostkcdn.com/images/products/is/images/direct/6e5e0aeddb70f4eaad68194470468f3a5b1d5ba6/JASIWAY-Modern-Style-Large-Upholstered-Sectional-Sofa.jpg",
+      "https://ak1.ostkcdn.com/images/products/is/images/direct/2d474df01ce72ac65732559303bd1ab5df6f7c8e/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
 
       sale: "Click Here to See price",
       name: "JASIWAY Modern Style Large Upholstered Sectional Sofa",
   
       price: "$4567",
       shipping:"Free Shipping",
-      color: "black",
-      brand: "Benzara"
+      color: "Green",
+      brand: "Modway"
     },
     {
       image1:
-    "https://ak1.ostkcdn.com/images/products/is/images/direct/363aaff69b55b246fe885902f1f6407fa8b75de9/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+    "https://ak1.ostkcdn.com/images/products/is/images/direct/5e9eac00d9c1b82088826390319d799909df0380/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
   image2:
-    "https://ak1.ostkcdn.com/images/products/is/images/direct/cc9a7846b0958aae23085bcf36bc8538cc4b33a1/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+    "https://ak1.ostkcdn.com/images/products/is/images/direct/ec2b5552a03cb8dae6be016e4bb2aeb3fe11ecbc/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
   image3:
-    "https://ak1.ostkcdn.com/images/products/is/images/direct/9c6726a67e67f4149ec370f4fb3a449aa7f5f7b7/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+    "https://ak1.ostkcdn.com/images/products/is/images/direct/275149a753bcd119aa2d58b6d4c9cefa49135065/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
   image4:
-    "https://ak1.ostkcdn.com/images/products/is/images/direct/34d4ac3720cfd813827f2afb7bf283af88f07e6d/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+    "https://ak1.ostkcdn.com/images/products/is/images/direct/6a141d7e38482dae94b3253570b7d61b0bc907a4/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
   image5:
-    "https://ak1.ostkcdn.com/images/products/is/images/direct/ffb00de09274b1408d23d64c6ae5115c0ad56fe0/Bowie-Modern-Glam-3-Seater-Velvet-Sofa-by-Christopher-Knight-Home.jpg",
+    "https://ak1.ostkcdn.com/images/products/is/images/direct/1e0c58d5a8ab5b726460872737e6281bb177528f/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
 
     sale: "Click Here to See price",
     name: "Castalia Nailhead Trim Chesterfield Sofa by Christopher Knight Home",
 
     price: "$6667",
     shipping:"Free Shipping",
-    color: "black",
-    brand: "LivEditor"
+    color: "red",
+    brand: "Modway"
   },
 
   {
     image1:
-  "https://ak1.ostkcdn.com/images/products/is/images/direct/ce89eaa1c4e67b6b13979fa7e66deb0351e684f4/iLounge-Harvard-Microfiber-Sofa.jpg",
+  "https://ak1.ostkcdn.com/images/products/14595043/Grace-Square-Traditional-Solid-Arm-Sofa-033db0b9-f455-4e06-a407-bc2e9baa987e_1000.jpg",
 image2:
-  "https://ak1.ostkcdn.com/images/products/is/images/direct/da6911d422c1d7cfb3778395ef1dbd873779c560/Castalia-Nailhead-Trim-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
+  "https://ak1.ostkcdn.com/images/products/14595043/Grace-Square-Traditional-Solid-Arm-Sofa-7eef8c41-b97c-4240-ae33-095d5d97b778_1000.jpg",
 image3:
-  "https://ak1.ostkcdn.com/images/products/is/images/direct/c5b3694df538b7f9babad1b0ebf640456b048456/Castalia-Nailhead-Trim-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
+  "https://ak1.ostkcdn.com/images/products/14595043/Grace-Square-Traditional-Solid-Arm-Sofa-50bd7b23-cf4e-4f01-b6ee-b4bd6059596b_1000.jpg",
 image4:
-  "https://ak1.ostkcdn.com/images/products/is/images/direct/c5b3694df538b7f9babad1b0ebf640456b048456/Castalia-Nailhead-Trim-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
+  "https://ak1.ostkcdn.com/images/products/14595043/Grace-Square-Traditional-Solid-Arm-Sofa-033db0b9-f455-4e06-a407-bc2e9baa987e_1000.jpg",
 image5:
-  "https://ak1.ostkcdn.com/images/products/is/images/direct/f8f74398136880c09c6532e5b20066c5d614340b/Castalia-Nailhead-Trim-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
+  "https://ak1.ostkcdn.com/images/products/14595043/Grace-Square-Traditional-Solid-Arm-Sofa-50bd7b23-cf4e-4f01-b6ee-b4bd6059596b_1000.jpg",
 
   sale: "Click Here to See price",
   name: "Bowie Glam Velvet Sofa by Christopher Knight Home",
 
   price: "$6779",
   shipping:"Free Shipping",
-  color: "black",
-  brand: "Benzara"
+  color: "white",
+  brand: "Modway"
 },
 {
     image1:
-  "https://ak1.ostkcdn.com/images/products/is/images/direct/2a95da046c7464f843bc97b5d8077a358cce2204/Knightsbridge-Tufted-Scroll-Arm-Chesterfield-Sofa-by-iNSPIRE-Q-Artisan.jpg",
+  "https://ak1.ostkcdn.com/images/products/is/images/direct/959162c85068979bb77d35b2232aff19555437df/Velvet-Convertible-Sectional-Chaise-Sleeper-Sofa-Bed-with-Adjustable-Tufted-Back%2C-Nailheads-Decor-and-2-Pillows.jpg",
 image2:
-  "https://ak1.ostkcdn.com/images/products/28701460/Bethzy-2-Piece-Living-Room-Set-e5a12534-f8d5-477d-a09c-46a756a91718_80.jpg",
+  "https://ak1.ostkcdn.com/images/products/is/images/direct/c65f9dc59258a976ceef6684887a52a1c1e67b90/Velvet-Convertible-Sectional-Chaise-Sleeper-Sofa-Bed-with-Adjustable-Tufted-Back%2C-Nailheads-Decor-and-2-Pillows.jpg",
 image3:
-  "https://ak1.ostkcdn.com/images/products/28701460/Bethzy-2-Piece-Living-Room-Set-a98bff68-7b3b-4dec-9209-7d2d0881bf36_80.jpg",
+  "https://ak1.ostkcdn.com/images/products/is/images/direct/3dee9bf0151002aee55bf13229e704c6820a6039/Velvet-Convertible-Sectional-Chaise-Sleeper-Sofa-Bed-with-Adjustable-Tufted-Back%2C-Nailheads-Decor-and-2-Pillows.jpg",
 image4:
-  "https://ak1.ostkcdn.com/images/products/28701460/Bethzy-2-Piece-Living-Room-Set-fd2d9da3-c43f-44a1-bf3f-9ca5ddc1efb6_80.jpg",
+  "https://ak1.ostkcdn.com/images/products/is/images/direct/c495d426fd7cd8fb5236fd9bf5eb3d6b61feb79d/Velvet-Convertible-Sectional-Chaise-Sleeper-Sofa-Bed-with-Adjustable-Tufted-Back%2C-Nailheads-Decor-and-2-Pillows.jpg",
 image5:
-  "https://ak1.ostkcdn.com/images/products/28701460/Bethzy-2-Piece-Living-Room-Set-d2e77a92-2bcf-455f-a354-d78553c72951_80.jpg",
+  "https://ak1.ostkcdn.com/images/products/is/images/direct/025d055d9082cd272e8e2ad7ddfbe0f6124cdd7f/Velvet-Convertible-Sectional-Chaise-Sleeper-Sofa-Bed-with-Adjustable-Tufted-Back%2C-Nailheads-Decor-and-2-Pillows.jpg",
 
   sale: "Click Here to See price",
   name: "Capri Faux Leather Chesterfield Rolled Arm Loveseat",
 
   price: "$1750",
   shipping:"Free Shipping",
-  color: "black",
-  brand: "modway"
+  color: "blue",
+  brand: "Highland"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/3a0a7cc3fdf90aec32833ec844a51648d98e871c/Luna-Velvet-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/12189646/Black-Red-Leatherette-Sofa-Bed-17736c0b-21d3-4495-8a4e-f96e1a84c2ef_1000.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/0daab0a055ebe16008fa757d86af712cff017864/Boton-Chesterfield-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/12189646/Black-Red-Leatherette-Sofa-Bed-ea51affc-38f7-4b17-b75f-500d7c525357_1000.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/c3156c87198774048c3a246b964aae1f799b3756/Boton-Chesterfield-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/12189646/Black-Red-Leatherette-Sofa-Bed-c37fc79a-2f70-4648-a8ea-d08db5168e20_1000.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/5944378aaa00a91a792560ba3189b09eae66051e/Boton-Chesterfield-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/12189646/Black-Red-Leatherette-Sofa-Bed-bf1508bb-811d-4d65-9fe9-ff1e561959a4_1000.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/780911869c45c675cb0ae20509da9fdf3f93f105/Boton-Chesterfield-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/12189646/Black-Red-Leatherette-Sofa-Bed-bf1508bb-811d-4d65-9fe9-ff1e561959a4_1000.jpg",
 
 sale: "Click Here to See price",
 name: "Boton Chesterfield Sofa",
 
 price: "$780",
 shipping:"Free Shipping",
-color: "green",
-brand: "modway"
+color: "black",
+brand: "Highland"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/11285ab51ff81162f44b76bf211748ebfe99614d/Us-Pride-Mac-Velvet-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/3650c2c4f04416623230405829bb1a23f719d3b3/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/15636654/U.S.-Pride-Furniture-Grace-Rainbeau-Linen-Upholstered-Tufted-Mid-century-Sofa-7a909d38-66f6-47f0-abdd-09eb46006171_80.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/70d7b8baddf8140b1fb5973e2326390b9efd7b08/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/15636654/U.S.-Pride-Furniture-Grace-Rainbeau-Linen-Upholstered-Tufted-Mid-century-Sofa-72dec994-877e-453e-9728-15258f3c3665_80.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/d555738dc5da3f02ae231b47114315b60c9407a1/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/5944378aaa00a91a792560ba3189b09eae66051e/Boton-Chesterfield-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/620268deb06e4d510e08fa1a7473797019ed3752/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/15636654/U.S.-Pride-Furniture-Grace-Rainbeau-Linen-Upholstered-Tufted-Mid-century-Sofa-62319e85-95c6-4d9a-9e13-ebafa79fa88d_80.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/1d4196bd06193ad45fc45155da5f1db5c7a2af37/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 
 sale: "Click Here to See price",
 name: "U.S. Pride Furniture Grace Rainbeau Linen Upholstered Tufted Mid-century Sofa",
 
 price: "$790",
 shipping:"Free Shipping",
-color: "blue",
-brand: "modway"
+color: "white",
+brand: "Highland"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/5abef53f281a668451abd2619b9ed2befbaad0e6/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/1425102b04d94b01a63849330c340b32f9529ec4/55%22-Velvet-Accent-Sofa-Loveseat-with-2-Pillows-%26-Golden-Metal-Legs.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/d9bbcaf845b1a1ba5a7409b1d5de6920a0bc6df2/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/2bcd833615661111b97c21fd7e75416e3fb6f492/55%22-Velvet-Accent-Sofa-Loveseat-with-2-Pillows-%26-Golden-Metal-Legs.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/9414ab0811d7d84d72b19cf3f10e8302c166847d/Linen-Fabric-Upholstery-3-Seat-Storage-Sofa-with-Nailheads.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/082553be588593a9a6cc8a1e058b33843643f76a/55%22-Velvet-Accent-Sofa-Loveseat-with-2-Pillows-%26-Golden-Metal-Legs.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/c67e00278f746554dd35d0fb877b11f13555c59c/Linen-Fabric-Upholstery-3-Seat-Storage-Sofa-with-Nailheads.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/02e0450d2721b964eb9575e946cfa5d8d06a46a4/55%22-Velvet-Accent-Sofa-Loveseat-with-2-Pillows-%26-Golden-Metal-Legs.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/7ff8eafd32988b6d7425a61857e71b57c722c0b2/Linen-Fabric-Upholstery-3-Seat-Storage-Sofa-with-Nailheads.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/a0215c58a5eadaba53de6ab960bb6352a7ae20e3/55%22-Velvet-Accent-Sofa-Loveseat-with-2-Pillows-%26-Golden-Metal-Legs.jpg",
 
 sale: "Click Here to See price",
 name: "Linen Fabric Upholstery 3-Seat Storage Sofa with Nailheads",
 
 price: "$790",
 shipping:"Free Shipping",
-color: "blue",
+color: "red",
 brand: "Highland"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/087f8748415cba1c51b30574db5519df37ce729a/Signature-Design-by-Ashley%2C-Darcy-Contemporary-blue-Sofa-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/a94b67c6583783a20c17c87d2d90ad5b5cbaaf9c/Sectional-Sofa-Padded-Accent-Sofa-Pillow-Top-Arms-Living-Room-Chaise-with-Ottoman.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/251e559245b370faedc2827887be24148f838526/Signature-Design-by-Ashley%2C-Darcy-Contemporary-blue-Sofa-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/b3928e3ce68afbb0465b1b440e17af7b4680089c/Sectional-Sofa-Padded-Accent-Sofa-Pillow-Top-Arms-Living-Room-Chaise-with-Ottoman.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/80ceae1b920d8277b0de96e302302a03124b756f/Accent-Velvet-Upholstered-Loveseat-Sofa-with-Nailhead-Curved-Backrest.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/d18739aedc31b3bd3c1c0b68e74d2b3fcbfe3ca8/Sectional-Sofa-Padded-Accent-Sofa-Pillow-Top-Arms-Living-Room-Chaise-with-Ottoman.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/64592e316c51a8da1a573c8dd5bf5befa6636e6a/Accent-Velvet-Upholstered-Loveseat-Sofa-with-Nailhead-Curved-Backrest.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/27345c11f1653a68f40483a29e1e0c5c106eaa26/Sectional-Sofa-Padded-Accent-Sofa-Pillow-Top-Arms-Living-Room-Chaise-with-Ottoman.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/5ca477a983eadc70d517b55b6c2a3ab26aa22907/Accent-Velvet-Upholstered-Loveseat-Sofa-with-Nailhead-Curved-Backrest.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/cdb4ccd0c6eec9aa9953c7085ba3c7cbbef7387e/Sectional-Sofa-Padded-Accent-Sofa-Pillow-Top-Arms-Living-Room-Chaise-with-Ottoman.jpg",
 
 sale: "Click Here to See price",
 name: "Accent Velvet Upholstered Loveseat Sofa with Nailhead Curved Backrest",
 
 price: "$890",
 shipping:"Free Shipping",
-color: "blue",
+color: "green",
 brand: "Highland"
 },
 
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/2ea76e753b5d0ebe6d839c1b24b0364f5323f25a/55%22-Width-Convertible-Loveseat%2C-Sleeper-Sofa%2C-Sofa-bed.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/959162c85068979bb77d35b2232aff19555437df/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/d1fb4aee7ae27a6e4835f11adc44f5146324e59b/55%22-Width-Convertible-Loveseat%2C-Sleeper-Sofa%2C-Sofa-bed.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/e456d8b6df5767f2a51143338a7dea4ff72e1f2a/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/a848aa58b4ac433e73220bab07c1bd32ad2406ba/Modern-Upholstered-L-Shape-Sofa-in-Linen-Fabric-with-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/d491b1a0d76a9337063d6f6b944ddd0b5f6770b3/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/b5ecf51b7f399cb9ec214a41ea8a7ea0c7c048fd/Modern-Upholstered-L-Shape-Sofa-in-Linen-Fabric-with-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/9cd9dc7b9fd0d4009b8987a1ee1652e449bde864/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/3a0ed6f94d0003dd42c59b69235fb7adbcb572e6/Modern-Upholstered-L-Shape-Sofa-in-Linen-Fabric-with-Chaise.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/e456d8b6df5767f2a51143338a7dea4ff72e1f2a/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 sale:"Click Here to See price",
 name: "Modern Upholstered L-Shape Sofa in Linen Fabric with Chaise 85",
 
 price: "$890",
 shipping:"Free Shipping",
 color: "blue",
-brand: "Highland"
+brand: "Benzara"
 },
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/3a0a7cc3fdf90aec32833ec844a51648d98e871c/Luna-Velvet-Sofa.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/dcc0303a2ac75cb54eded02949d7ef056ef96400/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/97a8c9b92c3c3cd89a3c3753a5a92c6dff1ba249/Modern-Elegant-Velvet-Sofa-With-Buttons-Upholstery-And-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/3df3165342927819a0e1febebcb057d7925da165/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/b138ef121a268ca9d43a8f9b1492e5927e263b66/Modern-Elegant-Velvet-Sofa-With-Buttons-Upholstery-And-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/7c9dcccc3c6dcebc24dd70911c1e80031e573e1c/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/05083d93ed9035c728c00dd390c0f49b3df2d70b/Modern-Elegant-Velvet-Sofa-With-Buttons-Upholstery-And-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/cb7f0f50e89a290b55b6fda03203743a9e9303aa/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/4ee81f423fec3d1466bb10d993a25e2ecca7bfbc/Modern-Elegant-Velvet-Sofa-With-Buttons-Upholstery-And-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/41c6ed52beb39af2918598fd4a8ad8bce90ed4f3/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 sale:"Click Here to See price",
 name: "Modern Elegant Velvet Sofa With Buttons Upholstery And Metal Legs",
 
 price: "$690",
 shipping:"Free Shipping",
 color: "green",
-brand: "LivEditor"
+brand: "Benzara"
 },
 
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/1d7ff01c007b92765599c0346b0438e9f87ac1ea/Velvet-Sofa-with-Pull-Out-Bed-with-Two-Pillows.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/7058bea13f8fd5b72a3fa0ca1f58a778d88dbf5a/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/14dfc7e7cabd24de3e6ae0aa9f39211519fda440/Modern-Accent-Sofa%2C-Sectional-Sofa-with-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/9caf7ce0666c752b3df1d3e41d90192261558a98/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/fe35ae17f95b4324d50fe99366c46858a71fb371/Modern-Accent-Sofa%2C-Sectional-Sofa-with-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/6ce2b8cc23bfc0ed89e9caba7e48e51fe9c9c204/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/61279511abb70c1d177ae8f32c5fcde7c59ea7b6/Modern-Accent-Sofa%2C-Sectional-Sofa-with-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/3ebdbda4324f49935300f5ddb0c65877110d4f82/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/b940ede39dbd584606ebcc2877bcd961f546ab57/Modern-Accent-Sofa%2C-Sectional-Sofa-with-Metal-Legs.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/9665347957a1b891dd4fc9c44b01d23ed02cd44a/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 sale:"Click Here to See price",
 name: "Modern Accent Sofa, Sectional Sofa with Metal Legs",
 
 price: "$697",
 shipping:"Free Shipping",
-color: "green",
-brand: "LivEditor"
-},
-
-{
-  image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/08d10e317d2efd5fb4b9080a582c61b136bacd5d/Adelia-Modern-Glam-Tufted-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
-image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/49375c8bbeab8ca71358985bf147bdfd4ec5df26/Modern-Velvet-Sofa-with-Metal-Legs%2CLoveseat-Sofa-Couch-with-2-Pillows.jpg",
-image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/64373840a2f1306df2e1536ae98f66156f47eca6/Modern-Velvet-Sofa-with-Metal-Legs%2CLoveseat-Sofa-Couch-with-2-Pillows.jpg",
-image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/62a28d934ccbcfffbdfb5299348b23b5ceb74d1b/Modern-Velvet-Sofa-with-Metal-Legs%2CLoveseat-Sofa-Couch-with-2-Pillows.jpg",
-image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/2db17031374e53f905f789eb81ee2e75542d089f/Modern-Velvet-Sofa-with-Metal-Legs%2CLoveseat-Sofa-Couch-with-2-Pillows.jpg",
-sale:"Click Here to See price",
-name: "Modern Velvet Sofa with Metal Legs,Loveseat Sofa Couch with 2 Pillows",
-
-price: "$897",
-shipping:"Free Shipping",
-color: "green",
-brand: "LivEditor"
-},
-
-{
-  image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/981610c7f63022c18d40c8777f1c45f930647fe4/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
-image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/f9e47b5c189110cbba7bd768fa3327b1691c7883/Folding-Futon-Sofa-Bed%2C-Velvet-Sleeper-Sofa-for-Compact-Living-Space.jpg",
-image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/2ed84282b8a02ce3cf67dc2f8f237bdd7d0d97c2/Folding-Futon-Sofa-Bed%2C-Velvet-Sleeper-Sofa-for-Compact-Living-Space.jpg",
-image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8fb9eb845ca4674fab8c9f8544322e7a4cca4d27/Folding-Futon-Sofa-Bed%2C-Velvet-Sleeper-Sofa-for-Compact-Living-Space.jpg",
-image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/46458d3b67422650d1eaf8b7bb8469f0be41e50c/Folding-Futon-Sofa-Bed%2C-Velvet-Sleeper-Sofa-for-Compact-Living-Space.jpg",
-sale:"Click Here to See price",
-name: "Folding Futon Sofa Bed, Velvet Sleeper Sofa for Compact Living Space",
-
-price: "$3757",
-shipping:"Free Shipping",
-color: "green",
-brand: "LivEditor"
-},
-{
-  image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8b37ec00632157f2cbf94aac2a639c23c960a130/Emmet-Forest-green-Velvet-Sofa.jpg",
-image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/2ab797db6be467e7243fc8fbb7e110e7a71189e4/65-inch-Mid-Century-Modern-Loveseat%2CSofa-with-2-Bolster-Pillows.jpg",
-image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/d2f2952c2a4a51cdd8fdfaef1c834e6dfbc27028/65-inch-Mid-Century-Modern-Loveseat%2CSofa-with-2-Bolster-Pillows.jpg",
-image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8e6c2ae03b2a418ee25ebc3ec05f48b674185c52/65-inch-Mid-Century-Modern-Loveseat%2CSofa-with-2-Bolster-Pillows.jpg",
-image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/55c582468b791a75705701cea4fdc2d64f8b01e7/65-inch-Mid-Century-Modern-Loveseat%2CSofa-with-2-Bolster-Pillows.jpg",
-sale:"Click Here to See price",
-name: "65 inch Mid Century Modern Loveseat,Sofa with 2 Bolster Pillows",
-
-price: "$557",
-shipping:"Free Shipping",
-color: "green",
-brand: "LivEditor"
-},
-
-{
-  image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/5e9eac00d9c1b82088826390319d799909df0380/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
-image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/1c4e8e3d3411672990c894f92045ceef3c9b3494/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
-image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/c8e9e76c0020908080fc578b4d8f28a4b3db8fb4/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
-image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/c34b9eeba4d14bd3fd39a0dfde73a9d2e6aabda1/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
-image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/112ce590f599c500c3b11e30d5f68d0cc42bec9c/Barneyville-Traditional-Chesterfield-Sofa-with-Tufted-CUshions-by-Christopher-Knight-Home.jpg",
-sale:"Click Here to See price",
-name: "Barneyville Traditional Chesterfield Sofa by Christopher Knight Home",
-
-price: "$498",
-shipping:"Free Shipping",
-color: "red",
+color: "black",
 brand: "Benzra"
 },
 
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/78de91f893a6f56ae8de660c0e5cbb1afa740dc3/Soft-Bean-Bag-Chair-with-Ottoman%2CSponge-Filling-Lazy-Sofa-Floor-Couch.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/0bad641db5aa6d2eae8179357ea68b68574b4a06/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8977de91cbdae98a7449a50e30c380c361b38c9e/Soft-Bean-Bag-Chair-with-Ottoman%2CSponge-Filling-Lazy-Sofa-Floor-Couch.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/c980b32f81d18fa683d5ac02b9886f57e4301490/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image3:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/268bb99c245a5156ef816ba74abbc4f96d3034da/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image4:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/ea6cf02a2d19de1a24e853fb3c023b6a68783dd6/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image5:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/2641a7174c50af8403a3d1c0faa2e3305938794c/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+sale:"Click Here to See price",
+name: "Modern Velvet Sofa with Metal Legs,Loveseat Sofa Couch with 2 Pillows",
+
+price: "$897",
+shipping:"Free Shipping",
+color: "white",
+brand: "Benzara"
+},
+
+{
+  image1:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/46dcdf362ee99adcb93a555ac45feb2ffdb2ea8e/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image2:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/86d890976120b2f3dd7a116319b49c2771ec0de9/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image3:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/41c5ed5d257749eb5bfba238d8e05ef8e7dee39e/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image4:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/21d6bc01227b2ff76e9622645d110118e0e5d176/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+image5:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/bca36406370f34bf0c07c4db993c9733596f7c3d/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
+sale:"Click Here to See price",
+name: "Folding Futon Sofa Bed, Velvet Sleeper Sofa for Compact Living Space",
+
+price: "$3757",
+shipping:"Free Shipping",
+color: "red",
+brand: "Benzara"
+},
+{
+  image1:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/3650c2c4f04416623230405829bb1a23f719d3b3/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image2:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/70d7b8baddf8140b1fb5973e2326390b9efd7b08/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image3:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/d555738dc5da3f02ae231b47114315b60c9407a1/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image4:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/620268deb06e4d510e08fa1a7473797019ed3752/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image5:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/1d4196bd06193ad45fc45155da5f1db5c7a2af37/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+sale:"Click Here to See price",
+name: "65 inch Mid Century Modern Loveseat,Sofa with 2 Bolster Pillows",
+
+price: "$557",
+shipping:"Free Shipping",
+color: "white",
+brand: "LivEditor"
+},
+
+{
+  image1:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/a6ba5c1fa1a1c2b1faa21202f41e336d5556b855/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image2:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/80683b6054025ec6a85fc44867ec5c3ba462c331/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image3:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/a0b3a3d2bd5ce973fda9b16d872144c270f999f1/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image4:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/804882263b53cd871be7dec43d40ebbf7459acf1/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image5:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/80683b6054025ec6a85fc44867ec5c3ba462c331/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+sale:"Click Here to See price",
+name: "Barneyville Traditional Chesterfield Sofa by Christopher Knight Home",
+
+price: "$498",
+shipping:"Free Shipping",
+color: "black",
+brand: "LivEditor"
+},
+
+{
+  image1:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/cbe5429eba215db761b306e78857c4b11f00fc85/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
+image2:
+"https://ak1.ostkcdn.com/images/products/is/images/direct/2c2afac9e7a1f0cd0c970b66f4c0946c57224925/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image3:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/74898dd792afdd41074b4409238c43610d0043ee/Soft-Bean-Bag-Chair-with-Ottoman%2CSponge-Filling-Lazy-Sofa-Floor-Couch.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/4ff1f618ab792a020004cd5ad69cf01bf085c54d/Soft-Bean-Bag-Chair-with-Ottoman%2CSponge-Filling-Lazy-Sofa-Floor-Couch.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/c208640cea9118d1a829990faf98567d62e5b8fb/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/9a204cd0e44067d089f8db9a952c59803fe0a05d/Soft-Bean-Bag-Chair-with-Ottoman%2CSponge-Filling-Lazy-Sofa-Floor-Couch.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/752e588a85bfccf0502e52d3cb16bd0e17e51341/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 
 sale:"Click Here to See price",
 name: "Soft Bean Bag Chair with Ottoman,Sponge Filling Lazy Sofa Floor Couch",
@@ -357,47 +357,47 @@ name: "Soft Bean Bag Chair with Ottoman,Sponge Filling Lazy Sofa Floor Couch",
 price: "$643",
 shipping:"Free Shipping",
 color: "red",
-brand: "Benzara"
+brand: "LivEditor"
 },
 
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/062a456defa20f80b491d092acf0385ed91287d2/Teddy-Fabric-2-Seat-Floor-Sofa%2CLazy-Sofa-for-Bedroom-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/3af4df95fb90601bc824cf34ae73e4715dcb8d81/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8117acecf9b7adff9fb1056a266822c392aff470/Teddy-Fabric-2-Seat-Floor-Sofa%2CLazy-Sofa-for-Bedroom-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/69ee7c39d1ef9f895302e3424c6a6ed15bcb926e/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/46d76f4ac1d1de090ad9c79e6fb1df99ec3c31be/Teddy-Fabric-2-Seat-Floor-Sofa%2CLazy-Sofa-for-Bedroom-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/8b0786f93e4f8bed2a1cac7289350bb06fc32796/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/49e1eea1c2c3ca51725a11486ce3f5e611ec4706/Teddy-Fabric-2-Seat-Floor-Sofa%2CLazy-Sofa-for-Bedroom-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/6ebc3e34ae16e47bb2b41ac662b87a5a2e86ab6c/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/d98b5bada2f0621f7aa27262fed0a8b93dfa9c34/Teddy-Fabric-2-Seat-Floor-Sofa%2CLazy-Sofa-for-Bedroom-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/8b0786f93e4f8bed2a1cac7289350bb06fc32796/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
 sale:"Click Here to See price",
 name: "Teddy Fabric 2-Seat Floor Sofa,Lazy Sofa for Bedroom Living Room",
 
 price: "$126",
 shipping:"Free Shipping",
-color: "White",
-brand: "Benzara"
+color: "blue",
+brand: "LivEditor"
 },
 
 {
   image1:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/9f4023d5a477ec552eb00422e64f9c1356c141b8/Teddy-Fabric-Upholstery-Lounge-Floor-Couch%2CLazy-Sofa-for-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/f87c238a89ad6849bdead0ad8bb9e154c48de578/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
 image2:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/25763b90eb0c3bb2eb0dde017b5253b6d8d5bfac/Teddy-Fabric-Upholstery-Lounge-Floor-Couch%2CLazy-Sofa-for-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/2c18754301163238887522ddbde93425cf191f0d/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
 image3:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/42379862e1cb19b790790445b5204e92949bdeea/Teddy-Fabric-Upholstery-Lounge-Floor-Couch%2CLazy-Sofa-for-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/0264ae94c0692897acf6f3aa1236a5bbcfd6d995/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
 image4:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/cc120470703ecf7d576d259853de5d676fa02392/Teddy-Fabric-Upholstery-Lounge-Floor-Couch%2CLazy-Sofa-for-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/28c7fc70313800bfe63add8a79fa1ac17ff7fe35/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
 image5:
-"https://ak1.ostkcdn.com/images/products/is/images/direct/8766711c7f9a0f622e8ce73c82e0b6e24938ee50/Teddy-Fabric-Upholstery-Lounge-Floor-Couch%2CLazy-Sofa-for-Living-Room.jpg",
+"https://ak1.ostkcdn.com/images/products/is/images/direct/024fe82af6bd18ea415afe3765ce9867ece1faf5/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
 sale:"Click Here to See price",
 name: "Teddy Fabric Upholstery Lounge Floor Couch,Lazy Sofa for Living Room",
 
-price: "$147",
+price: "$14700",
 shipping:"Free Shipping",
-color: "white",
-brand: "Benzara"
+color: "green",
+brand: "LivEditor"
 },
 ];
 

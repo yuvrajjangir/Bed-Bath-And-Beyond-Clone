@@ -64,11 +64,27 @@ function display(item) {
     var h3 = document.createElement("h3");
     h3.textContent = item.sale;
 
-    var brands = document.createElement("p");
-    brands.textContent = item.brand;
+    var branddiv = document.createElement("div");
+    branddiv.setAttribute("class","branddiv")
 
-    var pricedata = document.createElement("p");
-    pricedata.textContent = item.price;
+    var brands = document.createElement("a");
+    brands.href = "https://www.example.com";
+    brands.textContent = item.brand;
+    
+    var brandname = document.createElement("h4");
+    
+    brandname.textContent = "Brand:";
+
+    branddiv.append(brandname,brands)
+
+    var colorimg = document.createElement("img");
+    colorimg.setAttribute("src", item.imageURL1);
+    colorimg.setAttribute("alt", "item.name");
+
+    var colorimgDiv = document.createElement("div");
+    colorimgDiv.setAttribute("class", "color-img");
+    colorimgDiv.appendChild(colorimg);
+
 
     var ship = document.createElement("p");
     ship.textContent = item.shipping;
@@ -76,6 +92,13 @@ function display(item) {
     var namePriceDiv = document.createElement("p");
     namePriceDiv.textContent = item.name;
 
+
+    var disbtndiv = document.createElement("div");
+    disbtndiv.setAttribute("class","disbtn");
+
+    var disbtn =document.createElement("button");
+    disbtn.textContent ="You have coupons available! Visit the coupon page";
+disbtndiv.append(disbtn);
 
     var wishlistButton = document.createElement("button");
 wishlistButton.setAttribute("class", "wishlist");
@@ -100,7 +123,7 @@ wishlistButton.addEventListener("click", function () {
 });
 
 var quantityLabel = document.createElement("label");
-quantityLabel.textContent = "Quantity: ";
+quantityLabel.textContent = "Quantity ";
 
 var quantitySelect = document.createElement("select");
 quantitySelect.setAttribute("class", "quantity-select");
@@ -142,7 +165,7 @@ quantityDiv.append(quantityLabel, quantitySelect);
     shopping.setAttribute("class","shopping");
     shopping.append( wishlistButton,addtocart);
 
-    divone.append(namePriceDiv, brands, h3, pricedata, ship,allsize,quantityDiv,shopping );
+    divone.append(namePriceDiv, branddiv, h3, disbtndiv,ship,allsize,colorimgDiv,quantityDiv,shopping );
 
     div.append(imgContainer, divone);
 

@@ -42,10 +42,10 @@
     margin: 5px 5px;
     padding: 5px;
     cursor: pointer;
-   background-color: #007bff;
+   /* background-color: #007bff; */
 }
 
-.secimg .imgDiv img {
+.imgDiv img {
     width: 100%;
    height: 100%;
 }
@@ -60,6 +60,8 @@
 }
 .otherdata >p{
     font-size: 1.5rem;
+    color: rgb(47,51,55);
+    font-weight: 600;
 }
 
 /* Style for the button */
@@ -104,6 +106,12 @@ width: 20px;
     cursor: pointer;
     width: 90%;
     font-size: large;
+    border-radius: 5px;
+}
+
+.addtocart:hover {
+    background-color: rgba(14, 14, 139, 0.801);
+   
 }
 
 /* Style for text elements */
@@ -131,10 +139,18 @@ h3, p {
 }
 
 .quantity-div{
-    display: flex;
+    display: block;
   justify-content: first baseline;
   align-items: center;
     margin: 1.6rem 0px;
+    margin-right: -4.2rem;
+    margin-left: -0.5rem;
+    
+}
+
+.quantity-div label{
+    margin-left: 0.8rem;
+    
 }
 .quantity-select{
     padding: 10px;
@@ -142,3 +158,65 @@ h3, p {
     margin-left:7px ;
     
 }
+
+.color-img {
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    
+    }
+.color-img img{
+width: 8rem;
+height: 8.1rem;
+}
+
+.branddiv{
+    display: flex;
+    justify-content: first start;
+    align-items: center;
+    
+    margin-top: -21px;
+}
+.branddiv >h4{
+  
+    color: rebeccapurple;
+}
+.branddiv >a{
+    color: rebeccapurple;
+    font-size: 16px;
+    margin-left: 0.2rem;
+    text-decoration: none;
+}
+.branddiv >a:hover{
+    color: rebeccapurple;
+    font-size: 16px;
+    margin-left: 0.2rem;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(206,61,55);
+}
+
+.disbtn{
+    height: 2.5rem;
+    margin-top: 2rem;
+}
+.disbtn button{
+    height:100%;
+    width: 100%;
+    color: darkblue;
+    font-size: 15px;
+    border: 4px dashed rgb(218,220,223);
+    background-color: rgb(249,250,251);
+}
+.disbtn button:hover{
+    height:100%;
+    width: 100%;
+    color: darkblue;
+    font-size: 15px;
+    border: 4px dashed gray;
+    text-decoration: underline;
+    background-color: rgb(249,250,251);
+    cursor: pointer;
+}
+
