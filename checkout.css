@@ -1,0 +1,444 @@
+.overstock_div {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    width: 70%;
+    height: 5rem;
+    border-bottom: 1px solid #c3c3c3;
+    /* margin-bottom: 2rem; */
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  
+  .overstock_div > img {
+    height: 5rem;
+    margin-top: 0rem;
+    margin-right: 45rem;
+  }
+  
+  .overstock_div > p { 
+    vertical-align: top;
+    margin-top: 2rem;
+    color: 
+    #0079d2;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+  }
+  
+  .overstock_div2 {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 5rem;
+    /* border: 1px solid #C3C3C3; */
+    /* margin-bottom: 2rem; */
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .overstock_div2 > img {
+    height: 4.5rem;
+    /* margin-top : 2rem; */
+  }
+  
+  .overstock_div2 > p {
+    /* margin-left: 0.5rem; */
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin-top: 1.7rem;
+    font-weight: bold;
+  }
+  
+  .returnAnchor_div {
+    color: #000;
+    margin-left: 18%;
+    font-size: 13px;
+    font-family: helvetica, arial, sans-serif;
+    margin-bottom: 3rem;
+  }
+  .returnAnchor {
+    text-decoration: none;
+    font-size: 15px;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    padding: 6px;
+    background-color: #1a4e8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .returnAnchor:hover{
+    background-color: #005fa8;
+    color: white
+  }
+  #addressContainer {
+    width: 64%;
+    height: 31rem;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  
+  .addressBox1 {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    height: 31rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+  }
+  
+  .addressBox2 {
+    width: 49%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+  }
+  
+  .addressBoxHead {
+    margin-bottom: 1rem;
+    height: 3rem;
+    box-shadow: rgba(0, 0, 0, ) 0px 1px 0px;
+    background-color: #1a4e8a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .addressBoxHead > p {
+    text-align: center;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 1.1rem;
+    margin-left: 0.5rem;
+  }
+  .bilingInputDiv {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bilingLabel {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .bilingLabel label {
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin-left: 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .bilingLabel2 {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .bilingLabel2 label {
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin-left: 0.5rem;
+    margin-bottom: 1.4rem;
+  }
+  .topEle {
+    margin-top: 0.47rem;
+  }
+  .boldLabel {
+    font-weight: bold;
+  }
+  .bilingInput input {
+    width: 86%;
+    height: 1.2rem;
+    margin-bottom: 0.56rem;
+    border: 1px solid #c3c3c3;
+  }
+  .bilingInput2 input {
+    width: 86%;
+    height: 1.2rem;
+    margin-top: 0.36rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid #c3c3c3;
+  }
+  
+  .interputer {
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    margin-top: 0rem;
+    margin-bottom: 0.3rem;
+  }
+
+  
+  .countrySelect {
+    width: 96%;
+    height: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.54rem;
+    border: 1px solid #c3c3c3;
+  }
+  .countrySelect2 {
+    width: 96%;
+    height: 1.4rem;
+    margin-top: 1.47rem;
+    margin-bottom: 0.58rem;
+    border: 1px solid #c3c3c3;
+  }
+  .increaseDivWidth {
+    width: 60rem;
+  }
+  .paymentsItemInfo {
+    width: 64.5%;
+    /* height: 29.4rem; */
+    background-color: white;
+    margin: 0.7rem auto;
+    display: flex;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  #submitbutton{
+    margin-top: 2rem;
+    width: 24%;
+    height: 3rem;
+    font-size: 15px;
+    color: white;
+    margin-left: 20rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #005fa8;
+    cursor: pointer;
+  }
+  #submitbutton:hover{
+    background-color: #0079d2;
+    color: white;
+  }
+  
+  .methodShipping {
+    margin-top: 3rem;
+    width: 100%;
+    height: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headShipping {
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: rgba(0, 0, 0, ) 0px 1px 0px;
+    background-color: #1a4e8a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .headShipping > p {
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0.4rem;
+    margin-top: 0.75rem;
+  }
+  .shippingDiv2 {
+    /* border: 1px solid black; */
+    margin-top: 0.3rem;
+    margin-bottom: 0.44rem;
+  }
+  .shippingDiv2 > div > input{
+    margin-top: 0.5rem;
+  }
+  .shippingDiv2 span {
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    align-items: center;
+  }
+  .shippingDiv2 .green {
+    color: #00c928;
+    margin-left: 2rem;
+  }
+  .paymentUserDetails {
+    width: 64.5%;
+    height: 17rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0.7rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment_divHead {
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: rgba(0, 0, 0, ) 0px 1px 0px;
+    background-color: #1a4e8a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .payment_divHead > p {
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    margin-top: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .paymentDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgDiv {
+    width: 100%;
+    height: 2.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .imgDiv > img {
+    width: 10rem;
+    height: 100%;
+    margin-left: 0.5rem;
+  }
+  
+  .cardInfo {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  
+  .cardQuery {
+    width: 20%;
+    height: 12rem;
+  }
+  .cardQuery p {
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+    margin-right: 0rem;
+    font-weight: bold;
+  }
+  .cardQueryResult {
+    width: 70%;
+    height: 12rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cardQueryResult input {
+    width: 35%;
+    height: 1.5rem;
+    border: 1px solid #c3c3c3;
+    margin-left: 4.5rem;
+    margin-right: 0rem;
+    border-radius: 0rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .cardQueryResult > select {
+    width: 17%;
+    height: 1.5rem;
+    border: 1px solid #c3c3c3;
+    margin-left: 4.5rem;
+    margin-right: 0rem;
+    border-radius: 0rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.9rem;
+  }
+  
+  .button {
+    width: 10%;
+    height: 2rem;
+    /* border-radius: 1rem; */
+    margin-left: 70%;
+    color: #fff;
+    background-color: #00c928;
+    border: none;
+  }
+  
+  #t3 {
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+  }
+  #lastupperdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+#checkboxsel{
+  /* margin: 1px; */
+  width: 20px;
+}
+#lastdivpaymentsub{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#termscondtion{
+  display: flex;
+  justify-content: space-around;
+  border-bottom:1px solid #A4A4A4;
+}
+#lastline{
+  display: flex;
+  justify-content: space-between;
+}
+#lastimg{
+  width: 100px;
+  align-items: start;
+  padding-bottom: 15px;
+}
+#proceed-button {
+  background-color: #1a4e8a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+#proceed-button:hover {
+  background-color: #005fa8;
+}
+/* CSS for the popup */
+.popup {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup.show {
+  opacity: 1;
+}
