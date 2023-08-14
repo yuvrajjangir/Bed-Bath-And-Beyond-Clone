@@ -115,28 +115,27 @@
             <button id="submitbutton" onclick="return validateForm()">SUBMIT</button>
         </div>
     </div> 
-    <div class = "paymentsItemInfo">
-        <div>
-        </div>
-        <div class = "methodShipping">
+    <div class="paymentsItemInfo">
+        <!-- Shipping method options -->
+        <div class="methodShipping">
             <div class="headShipping">
                 <p>Shipping Method</p>
             </div>
-            <div class = "shippingInfo">
-                <div class = "shippingDiv2">
-                     <div>
-                        <input type="radio" name = "shippingMethod" value="standard">
-                         <span><b>International Standard</b> - 11785.06 INR</span>
-                         <p class = "green">Estimated Delivery Date: 2022-01-05</p>
-                     </div>
-                     <div>
-                        <input type="radio" name = "shippingMethod" value="express">
+            <div class="shippingInfo">
+                <div class="shippingDiv2">
+                    <div>
+                        <input type="radio" name="shippingMethod" value="standard" onchange="updateTotalAmount()">
+                        <span><b>International Standard</b> - 11785.06 INR</span>
+                        <p class="green">Estimated Delivery Date: 2022-01-05</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="shippingMethod" value="express" onchange="updateTotalAmount()">
                         <span><b>International Express</b> - 14405.21 INR</span>
-                        <p class = "green">Estimated Delivery Date: 2021-12-31</p>
-                     </div>
+                        <p class="green">Estimated Delivery Date: 2021-12-31</p>
+                    </div>
                 </div>
             </div>
-        </div>     
+        </div>
     </div>
     <div class = "paymentUserDetails">
         <div class = "payment_divHead">
@@ -178,7 +177,7 @@
                 and fulfilled by  FedEx Cross Border and you agree to FedEx Cross Border Terms and <br> Conditions and Privacy Policy.</p>
                 <div class="total-amount">
                     <h2>Total Amount</h2>
-                    <input type="number" name="" id="">
+                    <input type="number" id="totalAmountInput" readonly>
                     <button id="proceed-button" onclick="proceedToPayment()">Proceed to Payment</button>
                 </div>
         
