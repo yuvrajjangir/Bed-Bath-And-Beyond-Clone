@@ -1,7 +1,31 @@
 
 
 
+ /* Styles for the item container */
+ #cart-products-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+}
 
+.cart-item {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    /* background-color: whitesmoke; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 25px;
+    height: 300px;
+}
+.cart-item img {
+    max-width: 100px; /* Set a maximum width for the image */
+    max-height: 100px; /* Set a maximum height for the image */
+    margin-right: 10px; /* Add spacing between the image and the text */
+}
 #containerC {
     display: flex;
     justify-content: space-around;
@@ -90,21 +114,31 @@
     border-radius: 5px;
     padding: 4px 15px;
     text-align: center;
-    width: 30%;
+    width: 33%;
+    font-size: 12px;
     text-align: center;
   }
   #promoC {
     /* color: #1a1818; */
+    width: 25%;
+    height: 50%;
     padding: 8px 5px;
     border-radius: 5px;
     margin: 20px;
     border-color: rgb(13, 13, 13);
     border-width: 1px;
     text-align: center;
+    background-color: #1a4e8a;
+    color: white;
+    cursor: pointer;
   }
-  .removeC {
-    width: 35%;
-    background-color: #313233;
+  #promoC:hover{
+    background-color: #005fa8;;
+    color: white;
+  }
+   button {
+    width: 20%;
+    background-color: #1a4e8a;
     color: #ffffff;
     padding: 8px;
     border: none;
@@ -113,11 +147,16 @@
     margin-bottom: 15px;
     text-align: center;
     border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #005fa8;
+    color: white;
   }
   #paymentC {
     width: 80%;
     padding: 10px;
-    background-color: #313233;
+    background-color:  #1a4e8a;
     color: #ffffff;
     border-radius: 5px;
     border: none;
@@ -126,6 +165,10 @@
     font-size: large;
     text-decoration: none;
     cursor: pointer;
+  }
+  #paymentC:hover{
+    background-color: #005fa8;
+    color: white;
   }
   h2 {
     text-align: left;
@@ -264,6 +307,46 @@
     }   
     #logofont{
         font-size: 6px;
+    }
+    @media (max-width: 767px) {
+      /* Example of small screen styles */
+      body {
+        font-size: 16px;
+      }
+      #nav-placeholder {
+        display: none;
+      }
+      #footer {
+        text-align: center;
+      }
+    }
+
+    /* Medium screen styles (768px to 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      /* Example of medium screen styles */
+      body {
+        font-size: 18px;
+      }
+      #nav-placeholder {
+        padding: 10px;
+      }
+      #footer {
+        text-align: center;
+      }
+    }
+
+    /* Large screen styles (1024px and above) */
+    @media (min-width: 1024px) {
+      /* Example of large screen styles */
+      body {
+        font-size: 20px;
+      }
+      #nav-placeholder {
+        padding: 20px;
+      }
+      #footer {
+        text-align: center;
+      }
     }
 
   

@@ -78,9 +78,28 @@ if (!isValidPhoneNumber(shippingPhone)) {
     showFallDownPopup("Phone number in shipping address must be exactly 10 digits.");
     return false;
 }
+// Get input values for payment information
+var cardType = document.getElementById("card_type").value;
+var cardholderName = document.getElementById("name").value;
+var expDate = document.getElementById("exp_date").value;
+var cvv = document.getElementById("cvv").value;
 
-    // Form is valid
-    return true;
+// Check if any required fields in payment information are empty
+if (
+    isEmpty(cardType) ||
+    isEmpty(cardholderName) ||
+    isEmpty(expDate) ||
+    isEmpty(cvv)
+) {
+    // Show alert for empty fields in payment information
+    showFallDownPopup("Please fill in all required fields in the payment information.");
+    return false;
+}
+
+// ... (existing checks for billing and shipping information)
+
+// Form is valid
+return true;
 }
 
 // Function to show a popup message
@@ -165,3 +184,29 @@ document.getElementById("proceed-button").addEventListener("click", function (ev
         
     }
 });
+function updateTotalAmount() {
+    const shippingMethods = document.getElementsByName("shippingMethod");
+    const totalAmountInput = document.getElementById("totalAmountInput");
+
+    // Default total amount
+    let totalAmount = 0;
+
+    // Loop through shipping methods to find the selected one
+    for (const shippingMethod of shippingMethods) {
+        if (shippingMethod.checked) {
+            // Update total amount based on the selected shipping method
+            if (shippingMethod.value === "standard") {
+                totalAmount = 11785.06;
+            } else if (shippingMethod.value === "express") {
+                totalAmount = 14405.21;
+            }
+            break;
+        }
+    }
+
+    // Update the total amount input
+    totalAmountInput.value = totalAmount.toFixed(2);
+}
+
+// Initial call to set the initial total amount
+updateTotalAmount();
