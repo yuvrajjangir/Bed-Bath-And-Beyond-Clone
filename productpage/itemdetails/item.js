@@ -55,7 +55,7 @@ function display(item) {
             quantity: selectedQuantity,
         };
         localStorage.setItem("cartItem", JSON.stringify(itemObj));
-        window.location.href = "./productpage/product.html";
+        window.location.href = "../cartpage/cart.html";
     });
 
     var divone = document.createElement("div");
