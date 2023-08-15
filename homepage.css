@@ -94,11 +94,15 @@
   margin-bottom: 40px;
 }
 #midPart4 > h1 + #card3 {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   width: 85%;
   margin: auto;
   gap: 20px;
   font-size: 20px;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
 }
 #midPart4 > h1 + #card3 > div {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
@@ -294,4 +298,53 @@ p {
   height: 100%;
   /* font-size: 1.2rem;
    */
+}
+@media screen and (width<1200px) {
+  #midPart1 h2 {
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+  }
+}
+@media screen and (width<900px) {
+  #midPart1 > h1 + div {
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #midPart2 > h1 + div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #midPart4 > h1 + #card3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (width<750px) {
+  #Style > h1 + #card5 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #search > h1 + #search1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #midPart1 > h1 {
+    font-size: 30px;
+  }
+  #midPart1 h2 {
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+  }
+
+  #midPart1 h2 + p {
+    /* border: 1px solid red; */
+    font-size: 1rem;
+  }
+  #midPart2 > h1 {
+    font-size: 30px;
+  }
+
+  #fBrands > h1 + #card4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #midPart2 > h1 + div {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
