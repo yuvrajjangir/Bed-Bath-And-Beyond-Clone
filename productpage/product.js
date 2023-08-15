@@ -457,7 +457,7 @@ var namePriceDiv = document.createElement("p");
    
     namePriceDiv.textContent = element.name;
 
-div.append(imgDiv, h3,pricedata, namePriceDiv,ship);
+div.append(imgDiv, h3, namePriceDiv,ship);
 
 parent.append(div);
 })
