@@ -174,7 +174,7 @@
     text-align: left;
     margin-left: 70px;
   }
-/* @media only screen and (min-width:820px) and (max-width:1180px){
+ @media only screen and (min-width:820px) and (max-width:1180px){
       #MainC {
         width: 50%;
       }
@@ -199,8 +199,8 @@
       #main2C > div {
         width: 90%;
         height: 200px;
-        /* background-color: whitesmoke; */
-      /* }
+         background-color: whitesmoke; 
+       }
       .imageC {
          width: 40%; 
          margin-left: 10px;
@@ -220,8 +220,8 @@
         text-align: center;
       }
       #promoC {
-        /* color: #1a1818; */
-        /* padding: 8px 5px;
+         color: #1a1818; 
+         padding: 8px 5px;
         border-radius: 5px;
         margin: 20px;
         border-color: rgb(13, 13, 13);
@@ -236,7 +236,7 @@
        padding: 10px;
       align-items: center;
       }    
-}  */
+}  
 
   /* Cart end */
 
@@ -348,5 +348,78 @@
         text-align: center;
       }
     }
-
-  
+    .dropdown-content>ul>li{
+      margin-right: 3.5rem;
+      margin-left: -0.8rem;
+      margin-top: -0.5rem;
+      font-size: 12px;
+      /* display: block; */
+      float: left;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+    }
+    .dropdown-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      background-color: #f9fafb;
+      visibility: hidden;
+      opacity: 0;
+      min-width: 10rem;
+      min-height: 10rem;
+      position: static;
+      transition: visibility 0s, opacity 0.2s ease;
+      margin-top: 1rem;
+      right: 0; /* Adjust as needed */
+      top: 100%; 
+      display: none;
+      
+    }
+    /* Show the dropdown content only when hovering over the "Account" link */
+    .dropdown-container:hover .dropdown-content {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      z-index: 2;
+      top: -300; 
+    }
+    
+    /* Hide the dropdown content when moving the cursor away from both link and dropdown */
+    .dropdown-container:not(:hover) .dropdown-content {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .dropdown-content>ul>li{
+      margin-right: 3.5rem;
+      margin-left: -0.8rem;
+      margin-top: -0.5rem;
+      font-size: 12px;
+      /* display: block; */
+      float: left;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+    }
+    .dropdown-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      background-color: #f9fafb;
+      visibility: hidden;
+      opacity: 0;
+      min-width: 10rem;
+      min-height: 10rem;
+      position: static;
+      transition: visibility 0s, opacity 0.2s ease;
+      margin-top: 1rem;
+      right: 0; /* Adjust as needed */
+      display: none;
+      
+    }

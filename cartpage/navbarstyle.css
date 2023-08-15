@@ -34,6 +34,7 @@ a {
   }
   
   #navbarstart img {
+    margin-left: 2rem;
     width: 200px;
   }
   
@@ -70,13 +71,15 @@ a {
   }
   #navbarstart div {
     display: block;
+    margin-bottom: 2rem;
   }
   #navbarSearchBtn {
+    margin-bottom: 8rem;
     width: 40px;
     height: 32px;
     background-color: #1a4e8a;
     border: none;
-    margin-left: 0px;
+    margin-right: 2rem;
     border-top-right-radius: 4px;
     border-end-end-radius: 4px;
   }
@@ -103,21 +106,18 @@ a {
     display: flex;
     justify-content: space-around;
   }
-  
   #navbaritems {
     border-bottom: 1px solid #dadcdf;
     border-top: 1px solid #dadcdf;
     height: 45px;
     align-items: center;
   }
-  
   #navbaritems a {
     text-decoration: none;
     color: black;
     font-size: 14px;
     /* position: absolute; */
   }
-  
   li a:hover {
     border-bottom: 1px solid black;
   }
@@ -224,4 +224,33 @@ a {
     #navbarstart > a {
       width: 100%;
     }
+  }
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    z-index: 1;
+  }
+
+  .dropdown-container:hover .dropdown-content {
+    display: block;
+  }
+
+  .UserDropDowns_icon_08 {
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+  }
+
+  /* Keep the dropdown content visible when hovering over it */
+  .dropdown-content:hover {
+    display: block;
   }

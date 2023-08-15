@@ -1,0 +1,532 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .User p,
+  .User div {
+    font-size: 14px;
+    color: #626669;
+  }
+  .User h2 {
+    color: #444444;
+    margin-bottom: 30px;
+  }
+  .User {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 49% 1% 49%;
+    grid-gap: 1%;
+    margin-top: 200px;
+  }
+  .User button {
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .User input {
+    border-radius: 3px;
+  }
+  .signUp {
+    margin-bottom: 2rem;
+    margin-top: -10rem;
+    padding: 0% 12%;
+  }
+  .signUp form {
+    display: flex;
+    flex-direction: column;
+  }
+  .signUp .passwordDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    grid-template-rows: repeat(2, auto);
+    gap: 5%;
+  }
+  .signUp .bar > div {
+    height: 1px;
+    width: 80%;
+    border-bottom: 2px solid #eeeeee;
+    margin: 20px auto;
+  }
+  .signUp .checkboxDiv + button {
+    background-color: #0272a2;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid #0272a2;
+  }
+  .signUp .checkboxDiv + button:hover {
+    background-color: #01638d;
+  }
+  .signUp .info p,
+  .signUp .info div {
+    color: #626669;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .signUp .info a {
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  .checkboxDiv {
+    display: flex;
+    background-color: #f9fafc;
+    text-align: left;
+    margin: 20px 0;
+    border: 1px solid #dadcdf;
+    border-radius: 3px;
+    padding: 4px 15px;
+  }
+  .checkboxDiv p {
+    font-size: 12px;
+    margin: 5px;
+    margin-right: 0px;
+  }
+  .User label {
+    margin-top: 14px;
+    margin-bottom: 10px;
+  }
+  .User input {
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #d5d7d8;
+  }
+  .guest button {
+    height: 40px;
+    color: #626669;
+    border: 1px solid #d5d7d8;
+    font-weight: bolder;
+    background-color: #fafafa;
+    width: 100%;
+  }
+  .guest .info {
+    text-align: center;
+  }
+  .vertical_line {
+    margin-top: -10rem;
+    height: 500px;
+    width: 1px;
+    border-left: 1px solid #d5d7d8;
+  }
+  .signIn {
+    margin-top: -10rem;
+    padding: 0% 10%;
+  }
+  .signIn form {
+    display: flex;
+    flex-direction: column;
+  }
+  .signIn form > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .signIn button {
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #27865f;
+    width: 100%;
+    margin: 20px 0px;
+    border: 1px solid #27865f;
+  }
+  .signIn button:hover {
+    background-color: #217451;
+  }
+  .signIn a {
+    text-align: center;
+    color: #0272a2;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .privacyInfo {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .privacyInfo a {
+    text-decoration: none;
+    color: #2f3337;
+    margin: 10px 0px;
+  }
+  .privacyInfo a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+  #errorMessage {
+    display: none;
+  }
+  #errorMessage > p {
+    width: 51%;
+    margin: 10px auto;
+    background-color: #faf2f2;
+    color: #b11b25;
+    padding: 10px 20px;
+  }
+  @media screen and (max-width: 1100px) {
+    .User {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .User {
+      width: 80%;
+    }
+    .privacyInfo {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .User {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .User {
+      width: 100%;
+    }
+    .privacyInfo {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .User {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      grid-gap: 1%;
+    }
+    .User .vertical_line{
+      display: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  #ship {
+    border-bottom: 1px solid #dadcdf;
+    margin: 1px;
+  }
+  
+  #ship {
+    /* margin: 0px; */
+    display: flex;
+    gap: 7px;
+    padding: 5px;
+    background-color: #f9fafb;
+    align-items: top;
+    height: 30px;
+  }
+  
+  #ship img {
+    width: 28px;
+    height: 22px;
+    border-radius: 10px;
+    margin-top: 3px;
+  }
+  #ship p:nth-of-type(1) {
+    font-size: 12px;
+    padding-top: 0px;
+    padding-left: 10px;
+    color: #bfc1c5;
+  }
+  #ship p {
+    margin-top: 4px;
+  }
+  
+  #navbarstart img {
+    margin-left: 2rem;
+    width: 200px;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbarstart {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    /* position: fixed; */
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  }
+  
+  #navbarstart > div:nth-of-type(1) {
+    display: flex;
+    border: none;
+    border-top-right-radius: 4px;
+    border-end-end-radius: 4px;
+    width: 60%;
+    height: 30px;
+  }
+  #navbarstart div {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  #navbarSearchBtn {
+    margin-bottom: 8rem;
+    width: 40px;
+    height: 32px;
+    background-color: #1a4e8a;
+    border: none;
+    margin-right: 2rem;
+    border-top-right-radius: 4px;
+    border-end-end-radius: 4px;
+  }
+  
+  p {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  
+  #navbar > div:nth-of-type(2) {
+    /* border: 1px solid; */
+    text-align: center;
+    /* width: 40px; */
+  }
+  
+  .iconsvg {
+    border: 1px solid;
+    margin-top: 17px;
+  
+    margin-left: 5px;
+  }
+  
+  #navbaritems > ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #navbaritems {
+    border-bottom: 1px solid #dadcdf;
+    border-top: 1px solid #dadcdf;
+    height: 45px;
+    align-items: center;
+  }
+  #navbaritems a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    /* position: absolute; */
+  }
+  li a:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  a {
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    /* display: block; */
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+  
+  li a {
+    color: black;
+  }
+  
+  li:hover {
+    cursor: pointer;
+  }
+  
+  ul li ul {
+    background-color: #f9fafb;
+    visibility: hidden;
+    opacity: 1;
+    min-width: 15rem;
+    position: absolute;
+    transition: all 60s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  
+  .dropdown li {
+    padding: 10px;
+  }
+  #divCheckout {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8%;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  .fa {
+    color: white;
+    font-size: 20px;
+  }
+  #divCheckout img {
+    width: 23px;
+  }
+  #cartCount {
+    width: 12px;
+    margin-top: 12px;
+    padding-left: 12px;
+    text-align: center;
+    /* border: 1px solid; */
+    position: absolute;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c7202c;
+  }
+  .UserDropDowns_icon_08{
+    margin-left: 20px;
+  }
+  
+  @media screen and (max-width: 970px) {
+    #navbaritems {
+      display: none;
+    }
+    #navbarstart > a {
+      width: 100%;
+    }
+  }
+  #footer{
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* margin: 5px; */
+    /* border: 1px solid white; */
+    }
+    #footer {
+        /* border: 1px solid white; */
+        display:flex;
+        gap:10px;
+        justify-content: space-evenly;
+        padding-bottom: 100px;
+        background-color: #444;
+        padding-top: 50px;
+        /* flex-direction: column; */
+    }
+    #footer div{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer div > a{
+        /* padding: 14px; */
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    #lastDivFooter > img{
+        width: 30px;
+    }
+    #lastDivFooter > a{
+        color: white;
+        text-decoration: none;
+    }
+    #lastDivFooter{
+        /* margin: 10px; */
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        background-color: #333333;
+    }
+    
+    #lastDivFooter > div:nth-child(1){
+        width: 30%;
+        display: flex;
+        /* align-items: end; */
+        /* justify-content: center; */
+    
+    }   
+    #lastDivFooter > div:nth-child(2){
+        gap: 40px;
+        display: flex;
+        color: white;
+        font-weight: 100;
+        /* color: white; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    
+    }    
+    #logofont{
+        font-size: 6px;
+    }
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .modal-close {
+      margin-top: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 5px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+/* CSS for the custom modal */
+.modal-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
