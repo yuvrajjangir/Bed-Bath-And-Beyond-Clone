@@ -1,11 +1,44 @@
 /* Style for the outer container */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.detailsdiv {
+    width: fit-content;
+    height: fit-content;
+   
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .detailsdiv {
+        width: 100%;
+        height: fit-content;
+       
+    }
+
+.detailsdiv>div{
+    
+   display: flex;
+   flex-direction: column;
+   
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  }
+
 .detailsdiv>div {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 10px;
-    /* padding: 20px; */
-    /* border: 1px solid #ccc; */
+    /* margin: 10px; */
+   
+   width: 100%;
 }
 
 /* Style for the image container */
@@ -15,22 +48,28 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    padding-left :1%;
 }
 
 /* Style for the primary image */
 .firstimg {
    /* width: 100%; */
-    height: auto;
+    height: fit-content;
     border: 1px solid #ccc;
 }
 .firstimg  img {
-    width: 45rem;
-    height: 40rem;
+    width: 100%;
+    
    
 }
+
+
+
+
+
 .secimg {
     display: flex;
-     width: 45rem;
+     width: 100%;
      /* height: fit-content; */
      margin-bottom: 10px;
      justify-content: space-between;
@@ -53,6 +92,7 @@
 .otherdata {
     width: 50%;
     padding: 10px;
+    padding-right: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -145,7 +185,7 @@ h3, p {
     margin: 1.6rem 0px;
     margin-right: -4.2rem;
     margin-left: -0.5rem;
-    
+    width: 100%;
 }
 
 .quantity-div label{
@@ -154,7 +194,7 @@ h3, p {
 }
 .quantity-select{
     padding: 10px;
-    width: 90%;
+    width: 100%;
     margin-left:7px ;
     
 }
@@ -218,5 +258,24 @@ h3{
     text-decoration: underline;
     background-color: rgb(249,250,251);
     cursor: pointer;
+}
+.footerproduct{
+   margin-bottom: 2rem;
+     display: flex; flex-direction: row;
+    gap: 0.7rem;
+    padding-left: 1.5rem;
+    height: fit-content;
+}
+
+.matchproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    
+    }
+.matchproduct >img{
+border: 1px solid rgb(68, 93, 192);
+width: 90%;
 }
 

@@ -56,7 +56,7 @@ var sofaData =[
   
       price: "$4567",
       shipping:"Free Shipping",
-      color: "Green",
+      color: "green",
       brand: "Modway"
     },
     {

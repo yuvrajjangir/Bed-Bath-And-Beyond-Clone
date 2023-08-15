@@ -28,9 +28,14 @@ align-items: center;
 
 .firstcontainer #salarysort{
     
-    padding: 5px 8px;
+    padding: 8px 13px;
     border-radius: 2px;
     } 
+
+    .firstcontainer div #salarysort{
+    margin-top:4.9rem;
+      
+      } 
 .secondcontainer{
     display: flex;
   
@@ -52,6 +57,19 @@ align-items: center;
     flex-direction: column;
     
   }
+
+
+  
+
+  @media only screen and (max-width: 767px) {
+    
+    #productsidebar h5{
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+    }
+  }
+
   .dropdown-content {
     display: none;
 }
@@ -132,9 +150,33 @@ width: 70%;
    height: fit-content;
 }
 
-@media screen {
+@media only screen and (max-width: 767px) {
   
+#product-page-item-div{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 1em;
+width: 70%;
+ margin-right: 1rem;
+ overflow-y: auto;
+ height: fit-content;
 }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  #product-page-item-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.4em;
+  width: 70%;
+   margin-right: 1.5rem;
+   overflow-y: auto;
+   height: fit-content;
+  }
+  }
+
+
+
 #product-page-item-div >div{
    
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -236,7 +278,9 @@ background-color: white;
   }
   .Reviewbox >div{
     margin-right: 1rem;
+    width: fit-content;
   }
   .Reviewbox >div>img{
     border: 6px solid #dbdcdf; border-radius: 4.1rem 4rem;
+    width: 100%;
   }
