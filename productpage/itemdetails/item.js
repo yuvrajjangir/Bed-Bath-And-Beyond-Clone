@@ -119,7 +119,7 @@ wishlistButton.addEventListener("click", function () {
     var wishlistItems = JSON.parse(localStorage.getItem("wishlistItems")) || [];
     wishlistItems.push(itemObj);
     localStorage.setItem("wishlistItems", JSON.stringify(wishlistItems));
-    window.location.href = "./productpage/product.html";
+    window.location.href = "../wishlist/wishlist.html";
 });
 
 var quantityLabel = document.createElement("label");

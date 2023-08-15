@@ -11,7 +11,7 @@ var sofaData =[
     image5:
       "https://ak1.ostkcdn.com/images/products/is/images/direct/cc8d114e7da9402a7659692890732bb60030ca48/Bowie-Modern-Glam-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
 
-      sale: "Sale starts atCAD$560",
+      sale: "Sale starts at CAD $560",
     name: "Futzca ​Sectional Sofa Couch, 3 Seat L Shaped Sofa with Removable Pillows",
 
     price: "$3560",
@@ -31,10 +31,10 @@ var sofaData =[
     image5:
       "https://ak1.ostkcdn.com/images/products/is/images/direct/fffdf0432bc65091c4af4b62ba5bb9bd3474110d/Parksley-Tufted-Chesterfield-Velvet-3-Seater-Sofa-by-Christopher-Knight-Home.jpg",
 
-      sale: "Sale starts atCAD$565",
+      sale: "Sale starts at CAD $5695",
       name: "Futzca ​Sectional Sofa Couch, 3 Seat L Shaped Sofa with Removable Pillows",
   
-      price: "$565",
+      price: "$5695",
       shipping:"Free Shipping",
       color: "blue",
       brand: "Modway"
@@ -51,10 +51,10 @@ var sofaData =[
     image5:
       "https://ak1.ostkcdn.com/images/products/is/images/direct/2d474df01ce72ac65732559303bd1ab5df6f7c8e/Somerville-Chesterfield-Tufted-Jewel-Toned-Velvet-Sofa-with-Scroll-Arms-by-Christopher-Knight-Home.jpg",
 
-      sale: "Click Here to See price",
+      sale: "Sale starts at CAD $1560",
       name: "JASIWAY Modern Style Large Upholstered Sectional Sofa",
   
-      price: "$4567",
+      price: "$1560",
       shipping:"Free Shipping",
       color: "green",
       brand: "Modway"
@@ -71,7 +71,7 @@ var sofaData =[
   image5:
     "https://ak1.ostkcdn.com/images/products/is/images/direct/1e0c58d5a8ab5b726460872737e6281bb177528f/Barneyville-Traditional-Chesterfield-Sofa-by-Christopher-Knight-Home.jpg",
 
-    sale: "Click Here to See price",
+    sale: "Sale starts at CAD $6667",
     name: "Castalia Nailhead Trim Chesterfield Sofa by Christopher Knight Home",
 
     price: "$6667",
@@ -92,7 +92,7 @@ image4:
 image5:
   "https://ak1.ostkcdn.com/images/products/14595043/Grace-Square-Traditional-Solid-Arm-Sofa-50bd7b23-cf4e-4f01-b6ee-b4bd6059596b_1000.jpg",
 
-  sale: "Click Here to See price",
+  sale: "Sale starts at CAD $6779",
   name: "Bowie Glam Velvet Sofa by Christopher Knight Home",
 
   price: "$6779",
@@ -112,7 +112,7 @@ image4:
 image5:
   "https://ak1.ostkcdn.com/images/products/is/images/direct/025d055d9082cd272e8e2ad7ddfbe0f6124cdd7f/Velvet-Convertible-Sectional-Chaise-Sleeper-Sofa-Bed-with-Adjustable-Tufted-Back%2C-Nailheads-Decor-and-2-Pillows.jpg",
 
-  sale: "Click Here to See price",
+  sale: "Sale starts at CAD $1750",
   name: "Capri Faux Leather Chesterfield Rolled Arm Loveseat",
 
   price: "$1750",
@@ -132,7 +132,7 @@ image4:
 image5:
 "https://ak1.ostkcdn.com/images/products/12189646/Black-Red-Leatherette-Sofa-Bed-bf1508bb-811d-4d65-9fe9-ff1e561959a4_1000.jpg",
 
-sale: "Click Here to See price",
+sale: "Sale starts at CAD $780",
 name: "Boton Chesterfield Sofa",
 
 price: "$780",
@@ -152,7 +152,7 @@ image4:
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/1d4196bd06193ad45fc45155da5f1db5c7a2af37/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 
-sale: "Click Here to See price",
+sale: "Sale starts at CAD $790",
 name: "U.S. Pride Furniture Grace Rainbeau Linen Upholstered Tufted Mid-century Sofa",
 
 price: "$790",
@@ -172,7 +172,7 @@ image4:
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/a0215c58a5eadaba53de6ab960bb6352a7ae20e3/55%22-Velvet-Accent-Sofa-Loveseat-with-2-Pillows-%26-Golden-Metal-Legs.jpg",
 
-sale: "Click Here to See price",
+sale: "Sale starts at CAD $790",
 name: "Linen Fabric Upholstery 3-Seat Storage Sofa with Nailheads",
 
 price: "$790",
@@ -192,7 +192,7 @@ image4:
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/cdb4ccd0c6eec9aa9953c7085ba3c7cbbef7387e/Sectional-Sofa-Padded-Accent-Sofa-Pillow-Top-Arms-Living-Room-Chaise-with-Ottoman.jpg",
 
-sale: "Click Here to See price",
+sale: "Sale starts at CAD $890",
 name: "Accent Velvet Upholstered Loveseat Sofa with Nailhead Curved Backrest",
 
 price: "$890",
@@ -212,7 +212,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/9cd9dc7b9fd0d4009b8987a1ee1652e449bde864/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/e456d8b6df5767f2a51143338a7dea4ff72e1f2a/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $890",
 name: "Modern Upholstered L-Shape Sofa in Linen Fabric with Chaise 85",
 
 price: "$890",
@@ -231,7 +231,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/cb7f0f50e89a290b55b6fda03203743a9e9303aa/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/41c6ed52beb39af2918598fd4a8ad8bce90ed4f3/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $690",
 name: "Modern Elegant Velvet Sofa With Buttons Upholstery And Metal Legs",
 
 price: "$690",
@@ -251,7 +251,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/3ebdbda4324f49935300f5ddb0c65877110d4f82/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/9665347957a1b891dd4fc9c44b01d23ed02cd44a/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $697",
 name: "Modern Accent Sofa, Sectional Sofa with Metal Legs",
 
 price: "$697",
@@ -271,7 +271,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/ea6cf02a2d19de1a24e853fb3c023b6a68783dd6/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/2641a7174c50af8403a3d1c0faa2e3305938794c/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $897",
 name: "Modern Velvet Sofa with Metal Legs,Loveseat Sofa Couch with 2 Pillows",
 
 price: "$897",
@@ -291,7 +291,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/21d6bc01227b2ff76e9622645d110118e0e5d176/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/bca36406370f34bf0c07c4db993c9733596f7c3d/Modern-Velvet-Convertible-Sofa-Bed-Sleeper-with-Nailheads.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $3757",
 name: "Folding Futon Sofa Bed, Velvet Sleeper Sofa for Compact Living Space",
 
 price: "$3757",
@@ -310,10 +310,10 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/620268deb06e4d510e08fa1a7473797019ed3752/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/1d4196bd06193ad45fc45155da5f1db5c7a2af37/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $5570",
 name: "65 inch Mid Century Modern Loveseat,Sofa with 2 Bolster Pillows",
 
-price: "$557",
+price: "$5570",
 shipping:"Free Shipping",
 color: "white",
 brand: "LivEditor"
@@ -330,7 +330,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/804882263b53cd871be7dec43d40ebbf7459acf1/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/80683b6054025ec6a85fc44867ec5c3ba462c331/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $498",
 name: "Barneyville Traditional Chesterfield Sofa by Christopher Knight Home",
 
 price: "$498",
@@ -351,7 +351,7 @@ image4:
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/752e588a85bfccf0502e52d3cb16bd0e17e51341/Newbury-71-in.-W-Flared-Arm-Faux-Leather-Straight-Sofa.jpg",
 
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $643",
 name: "Soft Bean Bag Chair with Ottoman,Sponge Filling Lazy Sofa Floor Couch",
 
 price: "$643",
@@ -371,7 +371,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/6ebc3e34ae16e47bb2b41ac662b87a5a2e86ab6c/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/8b0786f93e4f8bed2a1cac7289350bb06fc32796/83%27%27-Comfortable-Velvet-Storage-Sleeper-Convertible-Sofa-Bed..jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $126",
 name: "Teddy Fabric 2-Seat Floor Sofa,Lazy Sofa for Bedroom Living Room",
 
 price: "$126",
@@ -391,7 +391,7 @@ image4:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/28c7fc70313800bfe63add8a79fa1ac17ff7fe35/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
 image5:
 "https://ak1.ostkcdn.com/images/products/is/images/direct/024fe82af6bd18ea415afe3765ce9867ece1faf5/JASIWAY-L-shaped-4-Piece-Velvet-Upholstered-Sectional-Sofa.jpg",
-sale:"Click Here to See price",
+sale:"Sale starts at CAD $14700",
 name: "Teddy Fabric Upholstery Lounge Floor Couch,Lazy Sofa for Living Room",
 
 price: "$14700",
@@ -457,7 +457,7 @@ var namePriceDiv = document.createElement("p");
    
     namePriceDiv.textContent = element.name;
 
-div.append(imgDiv, h3,pricedata, namePriceDiv,ship);
+div.append(imgDiv, h3, namePriceDiv,ship);
 
 parent.append(div);
 })
