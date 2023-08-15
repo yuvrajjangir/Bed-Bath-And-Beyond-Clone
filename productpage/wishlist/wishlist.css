@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wishlistItems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    padding-left: 4%;
+}
+
+#wishlistItems div{
+ border: 1px  solid lightgoldenrodyellow;
+ display: flex;
+ flex-direction: column;
+ gap: 0.6rem;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+#wishlistItems div img{
+    width: 100%;
+}
+#wishlistItems div >button{
+    width: 100%;
+    font-size: 16px;
+    color: lightblue;
+    border: hidden;
+    cursor: pointer;
+}
+#wishlistItems div > p{
+   
+    font-size: 16px;
+    color:  rgb(74, 48, 202);
+    
+}
