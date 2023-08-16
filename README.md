@@ -1,6 +1,6 @@
 # Bed bath and beyond
 bedbathandbeyond.com
-# <span style="color:red"> <i class="fa-solid fa-italic">Cloning of [BED BATH & BEYOND](https://cheerful-bonbon-0df5e2.netlify.app/) WEBSITE</i></span>
+# <span style="color:red"> <i class="fa-solid fa-italic">Cloning of [BED BATH & BEYOND](https://effortless-raindrop-0b52c3.netlify.app/) WEBSITE</i></span>
 
 # <span style="color:red"> Welcome Here!</span>
 
@@ -10,7 +10,7 @@ It was during the final week which is depicted as the construct week. We have do
 
 # <span style="color:red"> About Website: </span>
 
- [bed bath and beyond](https://cheerful-bonbon-0df5e2.netlify.app/),Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.
+ [bed bath and beyond](https://effortless-raindrop-0b52c3.netlify.app/),Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.
  
 
 # <span style="color:red"> Tech Stack Used: </span>
@@ -51,7 +51,7 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 - ## <span style="color:blue"> Product Pages</span>
 
-<img width="400" alt="zms 1" src="https://drive.google.com/file/d/1H36AjDeTB-wPPFUPgiYYSuU-ep6tCzCk/view">
+<img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*kFaGsFmi_w38GF8p.png">
 <img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*qAj7imIX0Aeo5YjM.png">
 <img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*qAj7imIX0Aeo5YjM.png">
 
