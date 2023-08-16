@@ -1,16 +1,16 @@
-# Overstock
-overstock.com
-# <span style="color:red"> <i class="fa-solid fa-italic">Cloning of [OVERSTOCK](https://overstockk.netlify.app/) WEBSITE</i></span>
+# Bed bath and beyond
+bedbathandbeyond.com
+# <span style="color:red"> <i class="fa-solid fa-italic">Cloning of [BED BATH & BEYOND](https://cheerful-bonbon-0df5e2.netlify.app/) WEBSITE</i></span>
 
 # <span style="color:red"> Welcome Here!</span>
 
 Hello Readers,<br>
-It was during the final week which is depicted as the construct week. We have done this project with group of 6 members and build the clone of a very popular E-Commerce Website which deals in home appliances in the India <br> This Project is our construct week project in Unit-2 an we give a name to our project called Meanbuy Preoject. 
+It was during the final week which is depicted as the construct week. We have done this project with group of 4 members and build the clone of a very popular E-Commerce Website which deals in home appliances in the India <br> This Project is our construct week project in Unit-2 an we give a name to our project called Meanbuy Preoject. 
 <br> I hope you will enjoy the reading….
 
 # <span style="color:red"> About Website: </span>
 
- [Overstok](https://overstockk.netlify.app/)Overstok, Overstok is the future of online Booking they have products ranging from Flight booking to flat booking.
+ [bed bath and beyond](https://cheerful-bonbon-0df5e2.netlify.app/),Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.
  
 
 # <span style="color:red"> Tech Stack Used: </span>
@@ -51,7 +51,7 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 - ## <span style="color:blue"> Product Pages</span>
 
-<img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*kFaGsFmi_w38GF8p.png">
+<img width="400" alt="zms 1" src="https://drive.google.com/file/d/1H36AjDeTB-wPPFUPgiYYSuU-ep6tCzCk/view">
 <img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*qAj7imIX0Aeo5YjM.png">
 <img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*qAj7imIX0Aeo5YjM.png">
 
@@ -87,15 +87,11 @@ We are very thankful for the support of my teammates and instructor for the comp
 
 ## <span style="color:rgb(255, 200, 0)"> Team Members: </span>
 
-- ## Shubham
-[GitHub](https://github.com/Shubhamvumap123)
+- ## Arti Soni
+[GitHub](https://github.com/artisonii)
 
-- ## Krunal
-[GitHub](https://github.com/KrunalBorhade)
+- ## Yuvraj Jangir
+[GitHub](https://github.com/yuvrajjangir)
 
-- ## Amaan
-[GitHub](https://github.com/AmaanHaider)
-
-- ## Apoorva
-[GitHub](https://github.com/Apoorva0123)
-
+- ## Surendra Singh
+[GitHub](https://github.com/SursaChauhan)
