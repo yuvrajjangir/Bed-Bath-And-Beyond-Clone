@@ -124,3 +124,21 @@ function removeCartItem(item) {
         }
     }
 }
+function isCartEmpty() {
+    return cartItems.length === 0;
+}
+var checkoutButton = document.getElementById("paymentC");
+var popup = document.getElementById("popup");
+var closePopupButton = document.getElementById("closePopup");
+
+checkoutButton.addEventListener("click", function () {
+    if (isCartEmpty()) {
+        popup.style.display = "flex";
+    } else {
+        window.location.href = './checkout.html';
+    }
+});
+
+closePopupButton.addEventListener("click", function () {
+    popup.style.display = "none";
+});
