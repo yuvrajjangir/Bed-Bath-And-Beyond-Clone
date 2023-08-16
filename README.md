@@ -1,6 +1,6 @@
 # Bed bath and beyond
 bedbathandbeyond.com
-# <span style="color:red"> <i class="fa-solid fa-italic">Cloning of [BED BATH & BEYOND](https://effortless-raindrop-0b52c3.netlify.app/) WEBSITE</i></span>
+# <span style="color:red"> <i class="fa-solid fa-italic">Cloning of [BED BATH & BEYOND](https://www.bedbathandbeyond.com/) WEBSITE</i></span>
 
 # <span style="color:red"> Welcome Here!</span>
 
