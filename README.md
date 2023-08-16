@@ -45,25 +45,25 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 - ## <span style="color:blue"> Home Page </span>
 
-<img width="377" alt="Home page" src="https://miro.medium.com/max/1400/0*mgTGTuOAKT9qio6s.png">
+<img width="377" alt="Home page" src="">
 
 
 
 - ## <span style="color:blue"> Product Pages</span>
 
-<img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*kFaGsFmi_w38GF8p.png">
-<img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*qAj7imIX0Aeo5YjM.png">
-<img width="400" alt="zms 1" src="https://miro.medium.com/max/1400/0*qAj7imIX0Aeo5YjM.png">
+<img width="400" alt="zms 1" src="">
+<img width="400" alt="zms 1" src="">
+<img width="400" alt="zms 1" src="">
 
 
 - ## <span style="color:blue"> Payment Page</span>
 
- <img width="391" alt="zms footer" src="https://miro.medium.com/max/1400/1*XowV3KF5Q4YTxLzz2Unhbg.jpeg">
+ <img width="391" alt="zms footer" src="">
  
 
  - ## <span style="color:blue"> Login Page</span>
 
- <img width="391" alt="zms footer" src="https://miro.medium.com/max/1400/1*pHuMCAsVtMTJgFFkvu6gfQ.jpeg">
+ <img width="391" alt="zms footer" src="">
  
 <br>
  <hr>
