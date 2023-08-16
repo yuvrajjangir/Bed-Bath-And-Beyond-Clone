@@ -441,7 +441,7 @@ brand:element.brand,
          
           
         };
-        window.location.href = "./itemdetails/item.html";
+        window.location.href = "../itemdetails/item.html";
         localStorage.setItem("itemDetails", JSON.stringify(itemObj));
 })
 var h3 = document.createElement("h3");
