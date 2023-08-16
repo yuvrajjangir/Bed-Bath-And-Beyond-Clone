@@ -1,99 +1,126 @@
-var cart = JSON.parse(localStorage.getItem("cartItem")) || [];
-var left = document.getElementById("left");
-var right = document.getElementById("right");
+// Get the cart items from local storage
+var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
-function display(cart) {
-    left.innerHTML = "";
-    cart.forEach(function (item, index) {
-        let div = document.createElement("div");
-        let div1 = document.createElement("div");
+// Select the container where cart items will be displayed
+var cartContainer = document.querySelector(".cart-items");
 
-        let image = document.createElement("img");
-        image.src = item.imageURL1;
+// Variables to keep track of total price and total quantity
+var totalPrice = 0;
+var totalQuantity = 0;
 
-        let name = document.createElement("p");
-        name.innerText = item.name;
-        name.id = "name";
+// Loop through the cart items and create elements for each item
+cartItems.forEach(function (item) {
+    var existingCartItemDiv = cartContainer.querySelector(`[data-item="${item.name}"]`);
 
-        let price = document.createElement("h2");
-        price.innerText = `Sale INR ${item.price}`;
-        price.style.color = "rgb(172, 27, 37)";
-        price.style.marginLeft = "30px";
+    if (existingCartItemDiv) {
+        // Product already exists in the cart, update quantity
+        var itemQuantityElement = existingCartItemDiv.querySelector(".item-quantity");
+        var existingQuantity = parseInt(itemQuantityElement.textContent.split(" ")[1]);
+        var newQuantity = existingQuantity + item.quantity;
 
-        let quantity = document.createElement("p");
-        quantity.innerText = `Quantity: ${item.quantity}`;
+        itemQuantityElement.textContent = "Quantity: " + newQuantity;
 
-        let remove = document.createElement("u");
-        remove.innerText = "Remove";
-        remove.id = "remove";
-        remove.addEventListener("click", function () {
-            removeItem(index);
-        });
 
-        div1.append(name, price, quantity, remove);
-        div.append(image, div1);
-
-        left.append(div);
-    });
-}
-
-display(cart);
-
-function addItemToCart(itemObj, quantity) {
-    // Check if the item is already in the cart based on some unique identifier (e.g., item ID)
-    const existingItemIndex = cart.findIndex((item) => item.itemId === itemObj.itemId);
-
-    if (existingItemIndex !== -1) {
-        // Item already in cart, update the quantity
-        cart[existingItemIndex].quantity += quantity;
+        // Update total quantity
+        totalQuantity += item.quantity;
+        totalPrice += item.price * item.quantity;
     } else {
-        // Item not in cart, add it
-        itemObj.quantity = quantity;
-        cart.push(itemObj);
-    }
+        var cartItemDiv = document.createElement("div");
+        cartItemDiv.classList.add("cart-item");
+        cartItemDiv.setAttribute("data-item", item.name); // Set a data attribute for identification
 
-    localStorage.setItem("cartItems", JSON.stringify(cart));
-    display(cart);
-    displayTotal();
-}
+        var img = document.createElement("img");
+        img.setAttribute("src", item.imageURL1);
+        img.setAttribute("alt", item.name);
 
-function removeItem(index) {
-    cart.splice(index, 1);
-    localStorage.setItem("cartItems", JSON.stringify(cart));
-    display(cart);
-    displayTotal();
-}
+        var itemName = document.createElement("h6");
+        itemName.id="namee";
+        itemName.textContent = item.name;
 
-function displayTotal() {
-    right.innerHTML = "";
-    var total = 0;
-    for (var i = 0; i < cart.length; i++) {
-        total += cart[i].price * cart[i].quantity;
-    }
+        var itemPrice = document.createElement("p");
+        itemPrice.textContent = "Price: $" + item.price;
+        itemPrice.id="pricee";
 
-    let show = document.createElement("h2");
-    show.innerText = `Your Total: INR ${total}`;
-    show.id = "showTotal";
+        var itemQuantity = document.createElement("p");
+        itemQuantity.textContent = "Quantity: " + item.quantity;
+        itemQuantity.classList.add("item-quantity");
 
-    let checkOut = document.createElement("button");
-    checkOut.id = "check_out";
-    checkOut.innerText = "Check Out";
+        cartItemDiv.append(img, itemName,  itemPrice, itemQuantity);
 
-    checkOut.addEventListener("click", function () {
-        checkout();
+        // Add a "Remove" button
+        var removeButton = document.createElement("button");
+    removeButton.textContent = "Remove";
+    removeButton.classList.add("remove-button");
+    removeButton.addEventListener("click", function () {
+        removeCartItem(item);
     });
 
-    right.append(show, checkOut);
+
+        cartItemDiv.appendChild(removeButton);
+        cartContainer.appendChild(cartItemDiv);
+
+        // Update total price and total quantity
+        totalPrice += item.price * item.quantity;
+        totalQuantity += item.quantity;
+    }
+
+    // ... (existing code)
+});
+
+// Store the calculated total price in local storage
+localStorage.setItem("totalPrice", totalPrice);
+
+// Update total price and total quantity in the HTML
+var totalNumElement = document.getElementById("total-num");
+totalNumElement.textContent = totalQuantity;
+
+var totalPriceElement = document.getElementById("total-price");
+totalPriceElement.textContent = totalPrice.toFixed(2); // Format to 2 decimal places
+
+// Check if coupon code is applied
+var couponCode = "MASAI30"; // Coupon code for 20% discount
+var isCouponApplied = false; // Flag to track coupon application
+
+// Function to apply coupon code
+function applyCoupon() {
+    if (isCouponApplied) return; // Coupon already applied
+
+    // Apply coupon code logic
+    // Apply coupon code logic
+if (couponCode === "MASAI30") {
+    totalPrice *= 0.8; // Apply 20% discount
+    isCouponApplied = true;
+    localStorage.setItem("isCouponApplied", true);
+
 }
 
-var token = localStorage.getItem("token");
+    // Update total price in the HTML
+    totalPriceElement.textContent = totalPrice.toFixed(2); // Format to 2 decimal places
+}
 
-function checkout() {
-    if (token != null) {
-        window.location.href = "checkout.html";
-    } else {
-        window.location.href = "signup.html";
+// Button to apply coupon code
+var couponButton = document.getElementById("promoC");
+couponButton.addEventListener("click", applyCoupon);
+function removeCartItem(item) {
+    // Find the cart item element
+    var cartItemDiv = cartContainer.querySelector(`[data-item="${item.name}"]`);
+    if (cartItemDiv) {
+        // Remove the item's HTML element from the cart display
+        cartContainer.removeChild(cartItemDiv);
+
+        // Remove the item from cartItems array
+        var itemIndex = cartItems.indexOf(item);
+        if (itemIndex !== -1) {
+            cartItems.splice(itemIndex, 1);
+            localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+            // Update total price and total quantity
+            totalPrice -= item.price * item.quantity;
+            totalQuantity -= item.quantity;
+
+            // Update total price and total quantity in the HTML
+            totalNumElement.textContent = totalQuantity;
+            totalPriceElement.textContent = totalPrice.toFixed(2); // Format to 2 decimal places
+        }
     }
 }
-
-displayTotal();
