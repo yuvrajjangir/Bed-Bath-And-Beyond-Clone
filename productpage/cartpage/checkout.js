@@ -188,24 +188,32 @@ function updateTotalAmount() {
     const shippingMethods = document.getElementsByName("shippingMethod");
     const totalAmountInput = document.getElementById("totalAmountInput");
 
-    // Default total amount
-    let totalAmount = 0;
+    // Retrieve the total price from local storage
+    var totalPrice = parseFloat(localStorage.getItem("totalPrice")) || 0;
+
+    var isCouponApplied = JSON.parse(localStorage.getItem("isCouponApplied")) || false;
+
+    // Apply coupon code logic if coupon is applied in the cart
+    if (isCouponApplied) {
+        totalPrice *= 0.8; // Apply 20% discount
+    }
+
 
     // Loop through shipping methods to find the selected one
     for (const shippingMethod of shippingMethods) {
         if (shippingMethod.checked) {
             // Update total amount based on the selected shipping method
             if (shippingMethod.value === "standard") {
-                totalAmount = 11785.06;
+                totalPrice += 11785.06;
             } else if (shippingMethod.value === "express") {
-                totalAmount = 14405.21;
+                totalPrice += 14405.21;
             }
             break;
         }
     }
 
     // Update the total amount input
-    totalAmountInput.value = totalAmount.toFixed(2);
+    totalAmountInput.value = totalPrice.toFixed(2);
 }
 
 // Initial call to set the initial total amount

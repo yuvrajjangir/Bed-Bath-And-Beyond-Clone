@@ -77,7 +77,7 @@ signInForm.addEventListener('submit', function (event) {
     showModal('Sign in successful');
     // Redirect to another page
     setTimeout(function() {
-      window.location.href = 'dashboard.html'; // Replace with your page URL
+      window.location.href = '../homepage.html'; // Replace with your page URL
     }, 1500); // Delay for 1.5 seconds before redirecting
   } else if (!foundUser) {
     showModal('User not found');

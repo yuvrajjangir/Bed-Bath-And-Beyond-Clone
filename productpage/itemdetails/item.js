@@ -54,8 +54,15 @@ function display(item) {
             price: parseInt(item.price),
             quantity: selectedQuantity,
         };
-        localStorage.setItem("cartItem", JSON.stringify(itemObj));
-        window.location.href = "../cartpage/cart.html";
+        // Retrieve existing cart items from local storage
+    var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+    // Add the new item to the cart
+    cartItems.push(itemObj);
+
+    // Update cart items in local storage
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+        alert("Product added to cart");
     });
 
     var divone = document.createElement("div");
