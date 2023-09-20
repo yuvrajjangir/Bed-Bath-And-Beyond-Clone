@@ -46,6 +46,7 @@ body {
 #navbarstart {
   margin-top: auto;
   display: flex;
+  align-items: center;
   gap: 10px;
   justify-content: space-around;
   align-items: center;
@@ -217,12 +218,52 @@ ul li ul li {
 .UserDropDowns_icon_08 {
   margin-left: 20px;
 }
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+  #ship {
+    padding:1px;
+    width: 100%;
+  }
+  
+  #ship img {
+    max-width: 30px; /* Further decrease image size */
+  }
 
-@media screen and (max-width: 970px) {
+  #ship p {
+    font-size: 10px; /* Further decrease font size */
+  }
+  #navbarstart {
+    flex-direction: row;
+   
+  }
   #navbaritems {
     display: none;
   }
-  #navbarstart > a {
-    width: 100%;
+  #navbarstart img{
+    width: 90px;
   }
+  input[type="text"] {
+    font-size: 12px; /* Decrease font size */
+  }
+  
+  #navbarstart div {
+    margin: 3px 0;
+  }
+  
+  #navbarstart a {
+    
+    font-size: 10px;
+  }
+  #done{
+    margin-left: 6.9px;
+  }
+  .UserDropDowns_icon_08,
+  .UserDropDowns_icon_06 {
+    width: 14px;
+    height: 14px;
+  }
+  #navabarstart>div{
+    height: 10px;
+  }
+  
 }
