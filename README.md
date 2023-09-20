@@ -45,25 +45,25 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 - ## <span style="color:blue"> Home Page </span>
 
-<img width="377" alt="Home page" src="">
+<img width="377" alt="Home page" src="https://github.com/yuvrajjangir/pw134-high-fruit-9045/blob/product_page/images/Screenshot%202023-09-20%20154400.png">
 
 
 
 - ## <span style="color:blue"> Product Pages</span>
 
-<img width="400" alt="zms 1" src="">
-<img width="400" alt="zms 1" src="">
-<img width="400" alt="zms 1" src="">
+<img width="400" alt="zms 1" src="https://github.com/yuvrajjangir/pw134-high-fruit-9045/blob/product_page/images/Screenshot%202023-09-20%20154429.png">
+<img width="400" alt="zms 1" src="https://github.com/yuvrajjangir/pw134-high-fruit-9045/blob/product_page/images/Screenshot%202023-09-20%20154501.png">
+<img width="400" alt="zms 1" src="https://github.com/yuvrajjangir/pw134-high-fruit-9045/blob/product_page/images/Screenshot%202023-09-20%20154519.png">
 
 
 - ## <span style="color:blue"> Payment Page</span>
 
- <img width="391" alt="zms footer" src="">
+ <img width="391" alt="zms footer" src="https://github.com/yuvrajjangir/pw134-high-fruit-9045/blob/product_page/images/Screenshot%202023-09-20%20154738.png">
  
 
  - ## <span style="color:blue"> Login Page</span>
 
- <img width="391" alt="zms footer" src="">
+ <img width="391" alt="zms footer" src="https://github.com/yuvrajjangir/pw134-high-fruit-9045/blob/product_page/images/Screenshot%202023-09-20%20154539.png">
  
 <br>
  <hr>
