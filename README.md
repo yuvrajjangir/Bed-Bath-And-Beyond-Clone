@@ -10,7 +10,7 @@ It was during the final week which is depicted as the construct week. We have do
 
 # <span style="color:red"> About Website: </span>
 
- [bed bath and beyond](https://effortless-raindrop-0b52c3.netlify.app/),Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.
+ [bed bath and beyond](https://657704f260517d7876c12042--glowing-cucurucho-91c3a5.netlify.app/),Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.
  
 
 # <span style="color:red"> Tech Stack Used: </span>
